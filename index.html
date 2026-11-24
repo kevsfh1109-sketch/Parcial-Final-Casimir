@@ -1,0 +1,3366 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>El Efecto Casimir</title>
+
+  <link rel="stylesheet" href="Parcial.css">
+
+  <!-- MathJax para las ecuaciones -->
+  <script>
+    MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+
+  <header class="encabezado">
+    <div class="encabezado-contenido">
+      <span class="etiqueta">FÍSICA CUÁNTICA · ARTÍCULO</span>
+      <h1>EL EFECTO CASIMIR</h1>
+      <p>Una aproximación a las fluctuaciones del vacío cuántico</p>
+
+      
+<nav>
+  <ul>
+    <li><a href="#introduccion">Introducción</a></li>
+    <li><a href="#punto1">Punto 1</a></li>
+    <li><a href="#punto2">Punto 2</a></li>
+    <li><a href="#punto3">Punto 3</a></li>
+    <li><a href="#punto4">Punto 4</a></li>
+    <li><a href="#punto5">Punto 5</a></li>
+    <li><a href="#punto6">Punto 6</a></li>
+    <li><a href="#punto7">Punto 7</a></li>
+    <li><a href="#glosario">Glosario</a></li>
+    <li><a href="#bibliografia">Bibliografía</a></li>
+  </ul>
+</nav>
+</div>
+  </header>
+
+  <main>
+
+    <!-- INTRODUCCIÓN -->
+
+    <section id="introduccion" class="articulo">
+
+      <span class="numero-seccion">01 / FUNDAMENTOS</span>
+      <h2>Introducción al Efecto Casimir</h2>
+
+      <p>
+        En 1948, el físico holandés H. B. G. Casimir realizó un
+        cálculo simple que demostraba que al colocar dos placas
+        metálicas neutras una frente a la otra y separadas a una
+        distancia <i>l</i>, estas se atraerían con una fuerza que
+        solo dependía de dos constantes fundamentales: la constante
+        de Planck reducida, y la velocidad de la luz, <i>c</i>.
+        También era función del área, <i>A</i>, de las placas y de
+        la separación entre estas, de la siguiente manera:
+      </p>
+
+      <div class="formula">
+        \[
+          f_0 = -\frac{\hbar c \pi^2 A}{240l^4}
+          \tag{1}
+        \]
+      </div>
+
+      <p>
+        Este resultado tan simple generó toda una revolución en
+        muchos campos de la actualidad, tales como la teoría de
+        campos, estado sólido, altas energías, cosmología y,
+        más recientemente, nanociencias y nanotecnología.
+        Para empezar a explicar este efecto hace falta una definición
+        que Niels Bohr le mencionó a Casimir mientras discutían
+        los resultados de su investigación: la energía de punto cero.
+      </p>
+
+      <h3>Energía de punto cero</h3>
+
+      <p>
+        La energía de punto cero es la mínima energía que un sistema
+        puede tener. En el caso del vacío, la teoría cuántica de
+        campos supone que, aun a la energía de punto cero, siempre
+        hay ondas electromagnéticas fluctuantes de cualquier
+        frecuencia. Al poner las dos placas paralelas, entre estas
+        solo pueden existir ondas que cumplan con las condiciones
+        de frontera. Es decir, ondas que tengan nodos en las placas.
+        Por otro lado, afuera de las placas no hay restricción y
+        pueden existir ondas de cualquier frecuencia. Por lo que
+        podemos decir que hay más ondas afuera de las placas que
+        entre ellas, o bien que la energía de las ondas
+        electromagnéticas afuera de las placas es mayor que la
+        energía que hay entre las placas. Esta diferencia de energía
+        es la que causa la fuerza de Casimir.
+      </p>
+
+      <figure class="figura">
+        <img
+          id="imagen"
+          src="https://www.scielo.org.mx/img/revistas/mn/v4n1//2448-5691-mn-4-01-23-gf2.png"
+          alt="Representación de las fluctuaciones electromagnéticas dentro y fuera de las placas conductoras"
+          loading="lazy">
+
+        <figcaption>
+          <strong>Figura 1.</strong>
+          Representación de los modos de oscilación electromagnética
+          permitidos dentro y fuera de las placas conductoras.
+          <span>Fuente: Esquivel Sirvent (2011) [1].</span>
+        </figcaption>
+      </figure>
+
+      <p>
+        Si bien hubo intentos experimentales para comprobar el efecto
+        Casimir, fue hasta la década de los años 90 del siglo XX
+        que Steve Lamoreaux, utilizando una balanza de torsión
+        <a href="#ref3" class="cita">[3]</a>, logró medir con
+        suficiente precisión la fuerza de Casimir. Casi
+        simultáneamente, Umar Mohideen midió la fuerza utilizando
+        un microscopio de fuerza atómica
+        <a href="#ref4" class="cita">[4]</a>. El experimento
+        consistió en pegar una esfera de oro a una punta de fuerza
+        atómica y medir la fuerza entre la esfera y una placa de oro.
+      </p>
+
+    </section>
+
+    <div class="separador"></div>
+
+    <!-- PRIMER PUNTO -->
+
+    <section id="punto1" class="articulo">
+
+      <span class="numero-seccion">02 / PUNTO 1 Parcial</span>
+      <h2>¿Cómo afecta una placa conductora a un átomo neutro?</h2>
+
+      <p>
+        Cuando se coloca un átomo eléctricamente neutro frente a una
+        placa conductora, se produce una interacción física que,
+        aunque no puede explicarse mediante la electrostática
+        clásica, encuentra su fundamento en la mecánica cuántica.
+        Este fenómeno está relacionado con el efecto Casimir,
+        particularmente con una de sus manifestaciones conocidas
+        como efecto Casimir-Polder, que describe la interacción
+        entre un átomo neutro y una superficie conductora debido
+        a las fluctuaciones cuánticas del campo electromagnético.
+      </p>
+
+      <p>
+        Para comprender este fenómeno, primero debemos considerar
+        que un átomo neutro no es un objeto completamente estático.
+        Aunque su carga eléctrica total es cero, está compuesto
+        por un núcleo positivo y electrones negativos que presentan
+        una distribución de carga susceptible de fluctuar. Desde
+        la perspectiva cuántica, estas fluctuaciones no desaparecen
+        incluso cuando el átomo se encuentra en su estado fundamental,
+        es decir, en su estado de menor energía. Esto se debe a que
+        los electrones no poseen posiciones y trayectorias
+        perfectamente definidas, sino que se describen mediante
+        distribuciones de probabilidad.
+      </p>
+
+      <p>
+        Al acercar el átomo a una placa conductora, estas
+        fluctuaciones internas adquieren una importancia particular.
+        El campo eléctrico generado por las fluctuaciones de carga
+        del átomo induce una redistribución de las cargas libres
+        presentes en la superficie conductora. Como consecuencia,
+        aparece una polarización inducida en la placa, que modifica
+        el campo electromagnético alrededor del átomo y genera
+        una interacción entre ambos cuerpos. En términos sencillos,
+        el átomo produce una fluctuación eléctrica que induce una
+        respuesta en la placa, y esta respuesta ejerce una
+        influencia sobre el propio átomo.
+      </p>
+
+      <p>
+        Sin embargo, la explicación cuántica va más allá de una
+        simple redistribución de cargas. El campo electromagnético
+        también presenta fluctuaciones cuánticas de vacío, incluso
+        cuando no existe radiación electromagnética externa.
+        Estas fluctuaciones interactúan con los dipolos eléctricos
+        instantáneos del átomo y con las cargas inducidas en la
+        superficie conductora. Por tanto, la interacción no depende
+        de que el átomo tenga una carga neta ni de que exista una
+        fuente externa de energía, sino de las propiedades cuánticas
+        del sistema completo.
+      </p>
+
+      <p>
+        Una consecuencia importante de este proceso es la aparición
+        de una fuerza de atracción entre el átomo y la placa.
+        Esta fuerza se conoce como fuerza de Casimir-Polder y
+        constituye una manifestación microscópica de las
+        interacciones asociadas al vacío cuántico. Su intensidad
+        depende de la distancia entre el átomo y la superficie.
+        A distancias relativamente grandes, comparadas con las
+        longitudes de onda características de las transiciones
+        atómicas, la interacción entra en el régimen retardado
+        descrito por Casimir y Polder
+        <a href="#ref5" class="cita">[5]</a>.
+      </p>
+
+      <figure class="figura">
+        <img
+          id="imagen2"
+          src="https://web.mit.edu/kardar/www/research/seminars/Casimir2010/images/CPregimes.gif"
+          alt="Representación de los diferentes regímenes de interacción Casimir-Polder"
+          loading="lazy">
+
+        <figcaption>
+          <strong>Figura 2.</strong>
+          Representación de los diferentes regímenes de interacción
+          Casimir-Polder en función de la distancia entre el átomo
+          y la superficie.
+          <span>Fuente: material del seminario sobre el efecto Casimir,
+          MIT [6].</span>
+        </figcaption>
+      </figure>
+
+      <p>
+        Es importante aclarar que no se trata de que la placa cree
+        una imagen física del átomo ni de que sus electrones se
+        desplacen directamente hacia ella. Lo que ocurre es que
+        la superficie modifica las condiciones del campo
+        electromagnético y responde a las fluctuaciones del átomo.
+        En una aproximación electrostática, esta interacción puede
+        representarse mediante el método de las cargas imagen:
+        el átomo polarizado se comporta como si interactuara con
+        un dipolo imagen situado detrás de la superficie conductora.
+        Esta representación permite visualizar la atracción,
+        aunque no describe por completo el fenómeno cuántico.
+      </p>
+
+      <p>
+        En conclusión, colocar un átomo neutro frente a una placa
+        conductora permite observar cómo las fluctuaciones cuánticas,
+        tanto del átomo como del campo electromagnético, pueden
+        generar fuerzas medibles entre objetos que aparentemente
+        no poseen una interacción eléctrica neta. El efecto
+        Casimir-Polder demuestra que el vacío cuántico no es
+        simplemente la ausencia de materia o energía, sino un
+        entorno con fluctuaciones capaces de producir consecuencias
+        físicas reales. De esta manera, el efecto Casimir amplía
+        nuestra comprensión de las interacciones fundamentales
+        y demuestra que incluso un átomo eléctricamente neutro
+        puede experimentar una fuerza de atracción debido a la
+        naturaleza cuántica del espacio que lo rodea.
+      </p>
+
+    </section>
+
+
+<!-- =================================
+     PUNTO 2: ENERGÍA CASIMIR-POLDER
+================================= -->
+
+<section id="punto2" class="articulo">
+
+  <span class="numero-seccion">03 / PUNTO 2</span>
+
+  <h2>Energía de Casimir-Polder: definición conceptual y matemática en los regímenes de corto y largo alcance</h2>
+
+  <p>
+    La <strong>energía de Casimir-Polder</strong> es la energía potencial
+    de interacción que aparece entre un átomo eléctricamente neutro y
+    una superficie conductora o dieléctrica debido a las fluctuaciones
+    cuánticas del campo electromagnético y a la polarización eléctrica
+    del átomo.
+  </p>
+
+  <p>
+    Esta interacción genera una fuerza generalmente atractiva que
+    depende de la distancia entre el átomo y la superficie. Su
+    comportamiento matemático presenta dos regímenes principales:
+    el <strong>régimen de corto alcance o no retardado</strong> y el
+    <strong>régimen de largo alcance o retardado</strong>.
+  </p>
+
+  <p>
+    La diferencia fundamental entre ambos se encuentra en el tiempo
+    que necesita el campo electromagnético para propagarse entre el
+    átomo y la superficie, comparado con los tiempos característicos
+    de las transiciones electrónicas del átomo.
+  </p>
+
+
+  <!-- RÉGIMEN DE CORTO ALCANCE -->
+
+  <h3>1. Régimen de corto alcance (no retardado)</h3>
+
+  <div class="subtitulo-regimen">
+    <span>RÉGIMEN NO RETARDADO</span>
+  </div>
+
+  <h4>Definición conceptual</h4>
+
+  <p>
+    Cuando el átomo se encuentra muy cerca de la superficie
+    conductora, la distancia de separación es suficientemente
+    pequeña para que los efectos asociados al tiempo de propagación
+    de la interacción electromagnética sean despreciables.
+  </p>
+
+  <p>
+    En estas condiciones, la interacción se puede interpretar
+    principalmente mediante las fluctuaciones de los dipolos
+    eléctricos del átomo y la polarización inducida en la superficie
+    conductora. Es decir, el dipolo eléctrico instantáneo del átomo
+    induce una respuesta en la placa, generando una interacción
+    atractiva.
+  </p>
+
+  <p>
+    Este comportamiento se relaciona con las fuerzas de Van der Waals
+    y constituye el límite no retardado de la interacción
+    Casimir-Polder.
+  </p>
+
+  <h4>Definición matemática</h4>
+
+  <p>
+    La energía potencial de interacción está dada por:
+  </p>
+
+  <div class="formula">
+    \[
+      \boxed{U(z)=-\frac{C_3}{z^3}}
+    \]
+  </div>
+
+  <p>Donde:</p>
+
+  <ul class="lista-variables">
+    <li><i>U(z)</i>: energía potencial de interacción.</li>
+    <li><i>z</i>: distancia entre el átomo y la superficie.</li>
+    <li><i>C₃</i>: constante de interacción de Casimir-Polder
+    en el régimen no retardado.</li>
+  </ul>
+
+  <p>
+    Para una placa perfectamente conductora, esta constante puede
+    expresarse como:
+  </p>
+
+  <div class="formula">
+    \[
+      C_3=
+      \frac{\left\langle\hat{\mathbf d}^{\,2}\right\rangle}
+      {48\pi\varepsilon_0}
+    \]
+  </div>
+
+  <p>
+    Aquí, \(\left\langle\hat{\mathbf d}^{\,2}\right\rangle\)
+    representa el valor esperado del cuadrado del operador de
+    momento dipolar eléctrico del átomo en su estado fundamental,
+    y \(\varepsilon_0\) es la permitividad eléctrica del vacío.
+  </p>
+
+  <p>
+    La expresión muestra que la energía disminuye proporcionalmente
+    a \(1/z^3\). Por tanto, pequeñas variaciones en la distancia
+    entre el átomo y la placa pueden producir cambios considerables
+    en la intensidad de la interacción.
+  </p>
+
+
+  <!-- RÉGIMEN DE LARGO ALCANCE -->
+
+  <h3>2. Régimen de largo alcance (retardado)</h3>
+
+  <div class="subtitulo-regimen">
+    <span>RÉGIMEN RETARDADO</span>
+  </div>
+
+  <h4>Definición conceptual</h4>
+
+  <p>
+    Cuando el átomo se encuentra a una distancia considerable de
+    la superficie conductora, el tiempo de propagación de las
+    fluctuaciones electromagnéticas deja de ser despreciable.
+  </p>
+
+  <p>
+    En este caso, la interacción ya no puede interpretarse como una
+    respuesta electromagnética instantánea. Es necesario considerar
+    que el campo electromagnético necesita un tiempo determinado
+    para propagarse entre el átomo y la superficie, debido a que
+    su velocidad está limitada por la velocidad de la luz.
+  </p>
+
+  <p>
+    Este efecto se conoce como <i>retardación electromagnética</i>
+    y modifica la dependencia de la energía potencial respecto
+    a la distancia. A diferencia del régimen anterior, la
+    interacción comienza a disminuir proporcionalmente a la
+    cuarta potencia de la separación.
+  </p>
+
+  <h4>Definición matemática</h4>
+
+  <p>
+    Para un átomo isotrópico frente a una placa perfectamente
+    conductora, la energía potencial en el régimen retardado
+    está dada por:
+  </p>
+
+  <div class="formula">
+    \[
+      \boxed{
+      U(z)=-
+      \frac{3\hbar c\alpha(0)}
+      {32\pi^2\varepsilon_0 z^4}
+      }
+    \]
+  </div>
+
+  <p>Donde:</p>
+
+  <ul class="lista-variables">
+    <li><i>ℏ</i>: constante de Planck reducida.</li>
+    <li><i>c</i>: velocidad de la luz en el vacío.</li>
+    <li><i>α(0)</i>: polarizabilidad eléctrica estática del átomo.</li>
+    <li><i>ε₀</i>: permitividad eléctrica del vacío.</li>
+    <li><i>z</i>: distancia entre el átomo y la superficie.</li>
+  </ul>
+
+  <p>
+    La polarizabilidad estática representa la capacidad del átomo
+    para modificar su distribución de carga cuando se encuentra
+    sometido a un campo eléctrico.
+  </p>
+
+  <p>
+    En esta expresión se observa que la energía depende de
+    \(1/z^4\), lo que significa que disminuye más rápidamente
+    con la distancia que en el régimen no retardado.
+  </p>
+
+
+  <!-- TRANSICIÓN ENTRE REGÍMENES -->
+
+  <h3>3. Transición entre ambos regímenes</h3>
+
+  <p>
+    Los dos comportamientos no representan fenómenos independientes,
+    sino dos aproximaciones de una misma interacción física.
+    La transición depende de la distancia característica asociada
+    a las frecuencias de transición electrónica del átomo.
+  </p>
+
+  <p>Podemos establecer la siguiente relación:</p>
+
+  <div class="formula">
+    \[
+      \lambda_0=\frac{c}{\omega_0}
+    \]
+  </div>
+
+  <p>
+    Donde \(\omega_0\) es una frecuencia de transición electrónica
+    característica.
+  </p>
+
+  <div class="tabla-contenedor">
+    <table class="tabla-regimenes">
+      <thead>
+        <tr>
+          <th>Condición</th>
+          <th>Régimen</th>
+          <th>Energía potencial</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>\(z\ll\lambda_0\)</td>
+          <td>Corto alcance</td>
+          <td>\(-C_3/z^3\)</td>
+        </tr>
+
+        <tr>
+          <td>\(z\gg\lambda_0\)</td>
+          <td>Largo alcance</td>
+          <td>\(-C_4/z^4\)</td>
+        </tr>
+
+        <tr>
+          <td>\(z\approx\lambda_0\)</td>
+          <td>Transición</td>
+          <td>Se requiere una expresión completa</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    Los coeficientes \(C_3\) y \(C_4\) dependen de las propiedades
+    eléctricas del átomo y de la superficie.
+    <a href="#ref8" class="cita">[8]</a>
+  </p>
+
+
+  <!-- COMPARACIÓN -->
+
+  <h3>4. Comparación e interpretación física</h3>
+
+  <p>
+    La principal diferencia entre ambos regímenes es la dependencia
+    de la energía respecto a la distancia:
+  </p>
+
+  <div class="comparacion-regimenes">
+
+    <div class="comparacion-item">
+      <h4>Corto alcance</h4>
+      <div class="formula">
+        \[
+          U(z)=-\frac{C_3}{z^3}
+        \]
+      </div>
+      <p>
+        La energía disminuye como \(1/z^3\), debido al predominio
+        de la interacción no retardada entre el átomo y su dipolo
+        imagen inducido.
+      </p>
+    </div>
+
+    <div class="comparacion-item">
+      <h4>Largo alcance</h4>
+      <div class="formula">
+        \[
+          U(z)=-\frac{C_4}{z^4}
+        \]
+      </div>
+      <p>
+        La energía disminuye como \(1/z^4\), debido a que la
+        propagación del campo electromagnético adquiere importancia
+        y modifica la interacción.
+      </p>
+    </div>
+
+  </div>
+
+  <p>
+    También podemos obtener la fuerza a partir de la energía
+    potencial mediante:
+  </p>
+
+  <div class="formula">
+    \[
+      F(z)=-\frac{dU(z)}{dz}
+    \]
+  </div>
+
+  <p>Por consiguiente, para cada régimen:</p>
+
+  <h4>Corto alcance</h4>
+
+  <div class="formula">
+    \[
+      \boxed{F(z)=-\frac{3C_3}{z^4}}
+    \]
+  </div>
+
+  <h4>Largo alcance</h4>
+
+  <div class="formula">
+    \[
+      \boxed{F(z)=-\frac{4C_4}{z^5}}
+    \]
+  </div>
+
+  <p>
+    El signo negativo indica que la fuerza está dirigida hacia
+    la superficie conductora, es decir, corresponde a una
+    interacción atractiva.
+  </p>
+
+
+  <!-- CONCLUSIÓN -->
+
+  <div class="conclusion">
+    <h3>Conclusión</h3>
+
+    <p>
+      La energía de Casimir-Polder demuestra que la interacción
+      entre un átomo neutro y una superficie conductora depende
+      directamente de las fluctuaciones cuánticas del campo
+      electromagnético. En distancias pequeñas predomina el
+      comportamiento de Van der Waals, proporcional a \(1/z^3\),
+      mientras que a distancias mayores aparece la retardación
+      electromagnética, modificando la dependencia a \(1/z^4\).
+      Esta transición constituye una de las características
+      fundamentales de la electrodinámica cuántica aplicada
+      a las interacciones entre átomos y superficies.
+    </p>
+  </div>
+
+</section>
+
+
+<!-- ==========================================
+     PUNTO 3: DERIVACIÓN DE LIFSHITZ Y CESIO-AU
+========================================== -->
+
+<section id="punto3" class="articulo">
+
+  <span class="numero-seccion">04 / PUNTO 3</span>
+
+  <h2>Derivación de la transición entre los regímenes de corto y largo alcance: átomo de cesio frente a una placa de oro</h2>
+
+  <p>
+    Para estudiar esta transición vamos a considerar un sistema físico
+    concreto: un átomo de cesio (Cs), eléctricamente neutro, situado
+    frente a una superficie plana de oro (Au), en el vacío.
+  </p>
+
+  <p>
+    Este ejemplo permite comprender cómo la interacción de Casimir-Polder
+    cambia progresivamente cuando aumenta la distancia entre el átomo
+    y la superficie. Además, podremos estimar la energía potencial y
+    la fuerza de atracción para distancias del orden de nanómetros
+    y micrómetros.
+  </p>
+
+  <p>
+    La idea central es que los dos regímenes no aparecen de manera
+    abrupta. Son aproximaciones de una misma expresión matemática:
+    la integral de Lifshitz para la interacción entre un átomo
+    y una superficie.
+  </p>
+
+
+  <!-- 1. INTEGRAL DE LIFSHITZ -->
+
+  <h3>1. Fundamento: la expresión integral de Lifshitz</h3>
+
+  <p>
+    En electrodinámica cuántica, la interacción depende de la respuesta
+    electromagnética del átomo y del material. Para describirla se
+    utiliza la polarizabilidad dinámica del átomo,
+    \(\alpha(i\xi)\), y la respuesta dieléctrica del oro,
+    \(\varepsilon(i\xi)\).
+  </p>
+
+  <p>
+    La evaluación en frecuencias imaginarias \(i\xi\) permite
+    incorporar las fluctuaciones electromagnéticas de todas
+    las frecuencias en una sola integral.
+  </p>
+
+  <p>
+    Para un átomo isotrópico frente a una superficie plana,
+    a temperatura cero, una expresión de la energía potencial es:
+  </p>
+
+  <div class="formula">
+    \[
+    \boxed{
+    \begin{aligned}
+    U(z)=&
+    -\frac{\hbar}{16\pi^2\varepsilon_0c^2}
+    \int_0^\infty d\xi\,\xi^2\alpha(i\xi)
+    \int_0^\infty dk\,\frac{k}{\kappa}e^{-2\kappa z}
+    \\[4pt]
+    &\times
+    \left[
+    r_s-
+    \left(1+\frac{2k^2c^2}{\xi^2}\right)r_p
+    \right]
+    }
+    \end{aligned}
+    \]
+  </div>
+
+  <p>Donde:</p>
+
+  <div class="tabla-contenedor">
+    <table class="tabla-regimenes">
+      <thead>
+        <tr>
+          <th>Símbolo</th>
+          <th>Significado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>\(U(z)\)</td><td>Energía potencial de Casimir-Polder</td></tr>
+        <tr><td>\(z\)</td><td>Distancia entre el átomo y la superficie</td></tr>
+        <tr><td>\(\hbar\)</td><td>Constante de Planck reducida</td></tr>
+        <tr><td>\(c\)</td><td>Velocidad de la luz</td></tr>
+        <tr><td>\(\varepsilon_0\)</td><td>Permitividad del vacío</td></tr>
+        <tr><td>\(\alpha(i\xi)\)</td><td>Polarizabilidad dinámica del cesio</td></tr>
+        <tr><td>\(k\)</td><td>Componente del vector de onda paralela a la superficie</td></tr>
+        <tr><td>\(\kappa\)</td><td>Componente imaginaria de propagación en el vacío</td></tr>
+        <tr><td>\(r_s,r_p\)</td><td>Coeficientes de reflexión de Fresnel</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Las cantidades restantes se definen como:</p>
+
+  <div class="formula">
+    \[
+    \kappa=\sqrt{k^2+\frac{\xi^2}{c^2}}
+    \]
+  </div>
+
+  <div class="formula">
+    \[
+    \kappa_m=
+    \sqrt{k^2+\varepsilon(i\xi)\frac{\xi^2}{c^2}}
+    \]
+  </div>
+
+  <p>Y los coeficientes de reflexión son:</p>
+
+  <div class="formula">
+    \[
+    r_s=\frac{\kappa-\kappa_m}{\kappa+\kappa_m}
+    \]
+  </div>
+
+  <div class="formula">
+    \[
+    r_p=
+    \frac{\varepsilon(i\xi)\kappa-\kappa_m}
+    {\varepsilon(i\xi)\kappa+\kappa_m}
+    \]
+  </div>
+
+  <p>
+    Esta integral es especialmente importante porque contiene
+    simultáneamente los dos comportamientos que queremos estudiar:
+    el régimen no retardado y el retardado.
+  </p>
+
+
+  <!-- 2. CORTO ALCANCE -->
+
+  <h3>2. Cómo se obtiene el régimen de corto alcance</h3>
+
+  <p>
+    Para comprender la primera aproximación, debemos considerar
+    que la exponencial:
+  </p>
+
+  <div class="formula">
+    \[
+    e^{-2\kappa z}
+    \]
+  </div>
+
+  <p>
+    representa la propagación de las fluctuaciones electromagnéticas
+    entre el átomo y la superficie, incluyendo el recorrido de
+    ida y vuelta.
+  </p>
+
+  <p>
+    Cuando la distancia \(z\) es muy pequeña, las frecuencias
+    relevantes satisfacen aproximadamente:
+  </p>
+
+  <div class="formula">
+    \[
+    \frac{\xi z}{c}\ll 1
+    \]
+  </div>
+
+  <p>
+    Esto permite despreciar, en primera aproximación, los efectos
+    de retardación.
+  </p>
+
+  <p>
+    Para una superficie conductora ideal, los coeficientes
+    de reflexión son:
+  </p>
+
+  <div class="formula">
+    \[
+    r_s=-1,\qquad r_p=1
+    \]
+  </div>
+
+  <p>
+    Al introducirlos en la integral de Lifshitz, la expresión
+    se simplifica a:
+  </p>
+
+  <div class="formula">
+    \[
+    U(z)=
+    -\frac{\hbar}{4\pi^2\varepsilon_0}
+    \int_0^\infty d\xi\,\alpha(i\xi)
+    \int_{\xi/c}^{\infty}
+    d\kappa\,\kappa^2e^{-2\kappa z}
+    \]
+  </div>
+
+  <p>
+    Ahora, si la distancia es suficientemente pequeña,
+    podemos aproximar el límite inferior de la integral
+    interior a cero:
+  </p>
+
+  <div class="formula">
+    \[
+    \int_0^\infty\kappa^2e^{-2\kappa z}d\kappa
+    =\frac{1}{4z^3}
+    \]
+  </div>
+
+  <p>Sustituyendo:</p>
+
+  <div class="formula">
+    \[
+    U(z)=
+    -\frac{\hbar}{16\pi^2\varepsilon_0z^3}
+    \int_0^\infty\alpha(i\xi)d\xi
+    \]
+  </div>
+
+  <p>Definimos entonces:</p>
+
+  <div class="formula">
+    \[
+    C_3=
+    \frac{\hbar}{16\pi^2\varepsilon_0}
+    \int_0^\infty\alpha(i\xi)d\xi
+    \]
+  </div>
+
+  <p>Y obtenemos:</p>
+
+  <div class="formula">
+    \[
+    \boxed{U(z)=-\frac{C_3}{z^3}}
+    \]
+  </div>
+
+  <p>
+    Esta es precisamente la expresión del régimen de corto alcance.
+  </p>
+
+
+  <!-- 3. LARGO ALCANCE -->
+
+  <h3>3. Cómo se obtiene el régimen de largo alcance</h3>
+
+  <p>
+    Ahora consideremos lo contrario: el átomo se encuentra
+    suficientemente lejos de la superficie.
+  </p>
+
+  <p>
+    En este caso, el factor exponencial limita las contribuciones
+    a valores pequeños de \(\kappa\). Por ello, la frecuencia
+    imaginaria también queda restringida:
+  </p>
+
+  <div class="formula">
+    \[
+    \xi\leq c\kappa
+    \]
+  </div>
+
+  <p>
+    Como las frecuencias relevantes son pequeñas frente a las
+    frecuencias de transición electrónica del cesio, podemos
+    aproximar su polarizabilidad dinámica mediante su valor estático:
+  </p>
+
+  <div class="formula">
+    \[
+    \alpha(i\xi)\approx\alpha(0)
+    \]
+  </div>
+
+  <p>La integral se convierte en:</p>
+
+  <div class="formula">
+    \[
+    U(z)\approx
+    -\frac{\hbar\alpha(0)}{4\pi^2\varepsilon_0}
+    \int_0^\infty d\kappa\,\kappa^2e^{-2\kappa z}
+    \int_0^{c\kappa}d\xi
+    \]
+  </div>
+
+  <p>La integral interior es:</p>
+
+  <div class="formula">
+    \[
+    \int_0^{c\kappa}d\xi=c\kappa
+    \]
+  </div>
+
+  <p>Por tanto:</p>
+
+  <div class="formula">
+    \[
+    U(z)=
+    -\frac{\hbar c\alpha(0)}{4\pi^2\varepsilon_0}
+    \int_0^\infty\kappa^3e^{-2\kappa z}d\kappa
+    \]
+  </div>
+
+  <p>Utilizando:</p>
+
+  <div class="formula">
+    \[
+    \int_0^\infty\kappa^3e^{-2\kappa z}d\kappa
+    =\frac{3}{8z^4}
+    \]
+  </div>
+
+  <p>Finalmente obtenemos:</p>
+
+  <div class="formula">
+    \[
+    \boxed{
+    U(z)=
+    -\frac{3\hbar c\alpha(0)}
+    {32\pi^2\varepsilon_0z^4}
+    }
+    \]
+  </div>
+
+  <p>
+    Esta es la expresión del régimen de largo alcance.
+    La derivación corresponde a la formulación de Lifshitz
+    bajo la aproximación de superficie conductora ideal.
+  </p>
+
+
+  <!-- 4. INTERPRETACIÓN -->
+
+  <h3>4. ¿Qué significa físicamente esta transición?</h3>
+
+  <p>
+    La diferencia fundamental es que, en el régimen de corto
+    alcance, participan frecuencias suficientemente elevadas
+    para que la polarizabilidad dinámica del átomo sea importante.
+  </p>
+
+  <p>
+    En cambio, cuando aumenta la distancia, las contribuciones
+    de alta frecuencia quedan suprimidas por el factor exponencial.
+    Predominan las frecuencias bajas, para las cuales la
+    polarizabilidad puede considerarse prácticamente constante.
+  </p>
+
+  <div class="comparacion-regimenes">
+
+    <div class="comparacion-item">
+      <h4>Corto alcance</h4>
+      <div class="formula">
+        \[
+        U(z)\propto-z^{-3}
+        \]
+      </div>
+      <p>
+        Predomina la respuesta dinámica del átomo y la interacción
+        no retardada.
+      </p>
+    </div>
+
+    <div class="comparacion-item">
+      <h4>Largo alcance</h4>
+      <div class="formula">
+        \[
+        U(z)\propto-z^{-4}
+        \]
+      </div>
+      <p>
+        Predomina la polarizabilidad estática y los efectos
+        de retardación electromagnética.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="conclusion">
+    <h3>Zona de transición: integral completa de Lifshitz</h3>
+    <p>
+      Al aumentar la distancia, se pasa progresivamente de un
+      comportamiento no retardado a uno retardado. En la zona
+      intermedia, la polarizabilidad dinámica y la propagación
+      electromagnética deben considerarse simultáneamente.
+      Por ello, ninguna de las dos aproximaciones asintóticas
+      describe por sí sola toda la interacción.
+    </p>
+  </div>
+
+
+  <!-- 5. APLICACIÓN NUMÉRICA -->
+
+  <h3>5. Aplicación numérica: cesio frente a oro</h3>
+
+  <p>
+    Ahora vamos a utilizar un átomo real para obtener órdenes
+    de magnitud.
+  </p>
+
+  <div class="comparacion-regimenes">
+
+    <div class="comparacion-item">
+      <h4>Átomo de cesio (Cs)</h4>
+      <p>
+        Consideraremos un átomo en su estado electrónico
+        fundamental \(6S_{1/2}\), eléctricamente neutro.
+      </p>
+    </div>
+
+    <div class="comparacion-item">
+      <h4>Superficie de oro (Au)</h4>
+      <p>
+        Consideraremos una placa plana, gruesa y sin
+        recubrimientos adicionales.
+      </p>
+    </div>
+
+  </div>
+
+
+  <!-- 5.1 PROPIEDADES DEL CESIO -->
+
+  <h4>5.1. Propiedades del cesio</h4>
+
+  <p>
+    Un estudio experimental de Amini y Gould (2003), publicado
+    en Physical Review Letters, determinó la polarizabilidad
+    estática del cesio:
+  </p>
+
+  <div class="formula">
+    \[
+    \boxed{
+    \alpha(0)=6.611\times10^{-39}
+    \ \mathrm{C\,m^2/V}
+    }
+    \]
+  </div>
+
+  <p>También puede expresarse como:</p>
+
+  <div class="formula">
+    \[
+    \alpha(0)=401.0\,a_0^3
+    \]
+  </div>
+
+  <p>
+    donde \(a_0\) es el radio de Bohr.
+  </p>
+
+  <p>
+    Para aproximar la polarizabilidad dinámica emplearemos
+    un modelo de un solo oscilador:
+  </p>
+
+  <div class="formula">
+    \[
+    \alpha(i\xi)=
+    \frac{\alpha(0)}
+    {1+(\xi/\omega_0)^2}
+    \]
+  </div>
+
+  <p>Utilizaremos la frecuencia efectiva característica:</p>
+
+  <div class="formula">
+    \[
+    \omega_0=
+    2\pi(0.37\times10^{15})\ \mathrm{rad/s}
+    \]
+  </div>
+
+  <p>
+    Este valor es una aproximación de un modelo de respuesta
+    atómica, no una frecuencia única que describa todas
+    las transiciones del cesio.
+  </p>
+
+
+  <!-- 5.2 C3 -->
+
+  <h4>5.2. Cálculo de la constante \(C_3\)</h4>
+
+  <p>Recordemos que:</p>
+
+  <div class="formula">
+    \[
+    C_3=
+    \frac{\hbar}{16\pi^2\varepsilon_0}
+    \int_0^\infty\alpha(i\xi)d\xi
+    \]
+  </div>
+
+  <p>Sustituimos el modelo de un oscilador:</p>
+
+  <div class="formula">
+    \[
+    C_3=
+    \frac{\hbar\alpha(0)}{16\pi^2\varepsilon_0}
+    \int_0^\infty
+    \frac{d\xi}{1+(\xi/\omega_0)^2}
+    \]
+  </div>
+
+  <p>La integral tiene solución:</p>
+
+  <div class="formula">
+    \[
+    \int_0^\infty
+    \frac{d\xi}{1+(\xi/\omega_0)^2}
+    =\frac{\pi\omega_0}{2}
+    \]
+  </div>
+
+  <p>Por tanto:</p>
+
+  <div class="formula">
+    \[
+    C_3=
+    \frac{\hbar\alpha(0)\omega_0}
+    {32\pi\varepsilon_0}
+    \]
+  </div>
+
+  <div class="resultado">
+    <span>RESULTADO DE CORTO ALCANCE</span>
+    \[
+    \boxed{
+    C_3\approx1.82\times10^{-48}
+    \ \mathrm{J\,m^3}
+    }
+    \]
+  </div>
+
+
+  <!-- 5.3 C4 -->
+
+  <h4>5.3. Cálculo de la constante \(C_4\)</h4>
+
+  <p>Para el régimen de largo alcance:</p>
+
+  <div class="formula">
+    \[
+    C_4=
+    \frac{3\hbar c\alpha(0)}
+    {32\pi^2\varepsilon_0}
+    \]
+  </div>
+
+  <p>Sustituimos:</p>
+
+  <div class="formula">
+    \[
+    C_4=
+    \frac{
+    3(1.0546\times10^{-34})
+    (2.998\times10^8)
+    (6.611\times10^{-39})
+    }{
+    32\pi^2(8.8542\times10^{-12})
+    }
+    \]
+  </div>
+
+  <div class="resultado">
+    <span>RESULTADO DE LARGO ALCANCE</span>
+    \[
+    \boxed{
+    C_4\approx2.24\times10^{-55}
+    \ \mathrm{J\,m^4}
+    }
+    \]
+  </div>
+
+
+  <!-- 6. ENERGÍA Y FUERZA -->
+
+  <h3>6. Cálculo de la energía y la fuerza a diferentes distancias</h3>
+
+  <p>
+    Para comprobar las magnitudes, utilizaremos dos distancias
+    representativas:
+  </p>
+
+  <ul class="lista-variables">
+    <li>\(z=10\ \mathrm{nm}\): régimen de corto alcance.</li>
+    <li>\(z=1\ \mu\mathrm{m}\): régimen de largo alcance.</li>
+  </ul>
+
+  <p>La energía potencial y la fuerza se calculan mediante:</p>
+
+  <div class="formula">
+    \[
+    U(z)=-\frac{C_3}{z^3}
+    \qquad
+    F(z)=-\frac{3C_3}{z^4}
+    \]
+  </div>
+
+  <p>Para el corto alcance, y:</p>
+
+  <div class="formula">
+    \[
+    U(z)=-\frac{C_4}{z^4}
+    \qquad
+    F(z)=-\frac{4C_4}{z^5}
+    \]
+  </div>
+
+  <p>Para el largo alcance.</p>
+
+  <div class="resultado-calculo">
+    <h4>Caso 1. Cesio a 10 nm de la superficie</h4>
+    <span class="etiqueta-resultado">CORTO ALCANCE</span>
+
+    <div class="formula">
+      \[
+      U(10\,\mathrm{nm})=
+      -\frac{1.82\times10^{-48}}{(10^{-8})^3}
+      \]
+    </div>
+
+    <p><strong>−1.82 × 10⁻²⁴ J</strong></p>
+    <p>Energía potencial, aproximadamente −11.4 μeV.</p>
+
+    <div class="formula">
+      \[
+      F(10\,\mathrm{nm})=
+      -\frac{3(1.82\times10^{-48})}{(10^{-8})^4}
+      \]
+    </div>
+
+    <p><strong>−5.46 × 10⁻¹⁶ N</strong></p>
+    <p>Fuerza de atracción, aproximadamente 0.546 femtonewtons.</p>
+  </div>
+
+  <div class="resultado-calculo">
+    <h4>Caso 2. Cesio a 1 μm de la superficie</h4>
+    <span class="etiqueta-resultado">LARGO ALCANCE</span>
+
+    <div class="formula">
+      \[
+      U(1\,\mu\mathrm m)=
+      -\frac{2.24\times10^{-55}}{(10^{-6})^4}
+      \]
+    </div>
+
+    <p><strong>−2.24 × 10⁻³¹ J</strong></p>
+    <p>Energía potencial, aproximadamente −1.40 × 10⁻¹² eV.</p>
+
+    <div class="formula">
+      \[
+      F(1\,\mu\mathrm m)=
+      -\frac{4(2.24\times10^{-55})}{(10^{-6})^5}
+      \]
+    </div>
+
+    <p><strong>−8.97 × 10⁻²⁵ N</strong></p>
+    <p>Fuerza de atracción, aproximadamente 0.897 yoctonewtons.</p>
+  </div>
+
+  <p>
+    Los resultados muestran que la interacción disminuye
+    considerablemente al aumentar la distancia. Esto se debe
+    a la dependencia inversa de la energía y la fuerza respecto
+    a potencias elevadas de la separación.
+  </p>
+
+
+  <!-- 7. DISTANCIA DE TRANSICIÓN -->
+
+  <h3>7. ¿En qué distancia ocurre la transición?</h3>
+
+  <p>
+    Podemos estimar la longitud característica de transición
+    mediante:
+  </p>
+
+  <div class="formula">
+    \[
+    z_c\sim\frac{c}{\omega_0}
+    \]
+  </div>
+
+  <p>Sustituyendo:</p>
+
+  <div class="formula">
+    \[
+    z_c=
+    \frac{2.998\times10^8}
+    {2\pi(0.37\times10^{15})}
+    \]
+  </div>
+
+  <div class="resultado">
+    <span>LONGITUD CARACTERÍSTICA DE TRANSICIÓN</span>
+    \[
+    \boxed{z_c\approx129\ \mathrm{nm}}
+    \]
+  </div>
+
+  <p>Esto significa que:</p>
+
+  <ul class="lista-variables">
+    <li>
+      Por debajo de aproximadamente 129 nm comienza a predominar
+      el comportamiento no retardado.
+    </li>
+    <li>
+      Por encima de esa distancia comienza a predominar
+      el comportamiento retardado.
+    </li>
+    <li>
+      Cerca de 129 nm debemos utilizar la integral completa
+      de Lifshitz, ya que ninguna de las dos aproximaciones
+      asintóticas describe por sí sola toda la interacción.
+    </li>
+  </ul>
+
+  <p>
+    Es importante entender que los 129 nm son una escala
+    característica aproximada, no una frontera exacta.
+  </p>
+
+
+  <!-- 8. LIMITACIONES DEL MODELO -->
+
+  <h3>8. Una consideración importante: el oro no es un conductor perfecto</h3>
+
+  <p>
+    Hasta ahora hemos utilizado las ecuaciones correspondientes
+    a una placa perfectamente conductora. Sin embargo, el oro
+    es un material real y su respuesta electromagnética depende
+    de la frecuencia.
+  </p>
+
+  <p>Para obtener un resultado cuantitativo más preciso habría
+    que sustituir:</p>
+
+  <div class="formula">
+    \[
+    r_s=-1,\qquad r_p=1
+    \]
+  </div>
+
+  <p>Por los coeficientes de Fresnel reales:</p>
+
+  <div class="formula">
+    \[
+    r_s(i\xi,k),\qquad r_p(i\xi,k)
+    \]
+  </div>
+
+  <p>
+    Calculados a partir de la función dieléctrica experimental
+    del oro:
+  </p>
+
+  <div class="formula">
+    \[
+    \varepsilon_{\mathrm{Au}}(i\xi)
+    \]
+  </div>
+
+  <p>
+    Esta función puede obtenerse mediante relaciones de
+    Kramers-Kronig a partir de datos ópticos experimentales.
+  </p>
+
+  <div class="conclusion">
+    <h3>Conclusión del Punto 3</h3>
+
+    <p>
+      Por tanto, los valores numéricos anteriores son una
+      estimación de referencia para un conductor ideal,
+      no una simulación exacta de cesio frente a oro.
+      Particularmente a distancias muy pequeñas, las propiedades
+      reales del metal pueden modificar el coeficiente \(C_3\).
+    </p>
+
+    <p>
+      El análisis demuestra que la integral de Lifshitz permite
+      comprender la transición entre los dos regímenes de
+      Casimir-Polder y estimar la magnitud de las fuerzas
+      involucradas en un sistema atómico real.
+    </p>
+  </div>
+
+</section>
+
+
+<section id="punto4" class="articulo">
+
+    <span class="numero-seccion">05 / PUNTO 4</span>
+    <h2>Efecto de introducir una temperatura finita de \(T=300\ \mathrm{K}\) en la integral de Lifshitz</h2>
+
+    <p>
+        Cuando introducimos una temperatura finita de \(T=300\ \mathrm{K}\) en la
+        interacción entre un átomo de cesio y una placa de oro, aparece una
+        contribución adicional a la energía de Casimir-Polder:
+        <strong>las fluctuaciones térmicas del campo electromagnético</strong>.
+    </p>
+
+    <p>
+        Hasta ahora hemos considerado el sistema a temperatura cero, donde la
+        interacción se describe mediante las fluctuaciones cuánticas del vacío.
+        Sin embargo, a temperatura ambiente el campo electromagnético también
+        presenta fluctuaciones térmicas, cuya contribución puede modificar la
+        energía potencial y la fuerza entre el átomo y la superficie.
+    </p>
+
+    <p>
+        Es importante aclarar que la temperatura no elimina las fluctuaciones
+        cuánticas de punto cero. Ambas contribuciones coexisten: las fluctuaciones
+        cuánticas permanecen y se añaden los efectos térmicos.
+    </p>
+
+    <h3>1. Modificación de la integral de Lifshitz</h3>
+
+    <p>
+        A temperatura cero, la energía se calcula mediante una integral continua
+        sobre todas las frecuencias imaginarias:
+    </p>
+
+    <div class="formula">
+        \[
+        U_0(z)=
+        -\frac{\hbar}{16\pi^2\varepsilon_0c^2}
+        \int_0^\infty d\xi\,\xi^2\alpha(i\xi)
+        \int_0^\infty dk\,\frac{k}{\kappa}e^{-2\kappa z}
+        \left[
+        r_s-
+        \left(1+\frac{2k^2c^2}{\xi^2}\right)r_p
+        \right]
+        \]
+    </div>
+
+    <p>
+        Al introducir una temperatura finita, esta integral se transforma en
+        una suma discreta de frecuencias conocidas como
+        <strong>frecuencias de Matsubara</strong>.
+    </p>
+
+    <p>Su expresión matemática es:</p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        \xi_n=\frac{2\pi n k_BT}{\hbar}
+        }
+        \]
+    </div>
+
+    <p>Donde:</p>
+
+    <ul>
+        <li>\(n\): índice entero de Matsubara, \(n=0,1,2,\ldots\).</li>
+        <li>\(k_B\): constante de Boltzmann.</li>
+        <li>\(T\): temperatura absoluta.</li>
+        <li>\(\hbar\): constante de Planck reducida.</li>
+    </ul>
+
+    <p>
+        La energía térmica de Casimir-Polder queda expresada como:
+    </p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        \begin{aligned}
+        U_T(z)=
+        -\frac{k_BT}{8\pi\varepsilon_0c^2}
+        \sum_{n=0}^{\infty}{}'
+        \xi_n^2\alpha(i\xi_n)
+        \int_0^\infty dk\,
+        \frac{k}{\kappa_n}e^{-2\kappa_nz}
+        \left[
+        r_s-
+        \left(1+\frac{2k^2c^2}{\xi_n^2}\right)r_p
+        \right]
+        \end{aligned}
+        }
+        \]
+    </div>
+
+    <p>Con:</p>
+
+    <div class="formula">
+        \[
+        \kappa_n=
+        \sqrt{k^2+\frac{\xi_n^2}{c^2}}
+        \]
+    </div>
+
+    <p>
+        El símbolo de prima en la sumatoria indica que el término correspondiente
+        a \(n=0\) se cuenta con la mitad de su peso.
+    </p>
+
+    <h4>¿Qué cambió físicamente?</h4>
+
+    <p>
+        En lugar de integrar sobre un espectro continuo de frecuencias, ahora
+        sumamos las contribuciones de frecuencias discretas. Esto representa el
+        efecto de la temperatura sobre las fluctuaciones electromagnéticas.
+    </p>
+
+    <h3>2. ¿Qué ocurre específicamente a 300 K?</h3>
+
+    <p>Para nuestro sistema, las constantes relevantes son:</p>
+
+    <div class="formula">
+        \[
+        T=300\ \mathrm K
+        \]
+        \[
+        k_B=1.380649\times10^{-23}\ \mathrm{J/K}
+        \]
+    </div>
+
+    <p>La primera frecuencia de Matsubara es:</p>
+
+    <div class="formula">
+        \[
+        \xi_1=\frac{2\pi k_BT}{\hbar}
+        \]
+        \[
+        \boxed{
+        \xi_1\approx2.47\times10^{14}\ \mathrm{rad/s}
+        }
+        \]
+    </div>
+
+    <p>
+        Esto significa que las frecuencias imaginarias están separadas por
+        intervalos de aproximadamente \(2.47\times10^{14}\ \mathrm{rad/s}\).
+    </p>
+
+    <p>También podemos definir la longitud térmica:</p>
+
+    <div class="formula">
+        \[
+        \lambda_T=\frac{\hbar c}{k_BT}
+        \]
+        \[
+        \boxed{\lambda_T\approx7.63\ \mu\mathrm m}
+        \]
+    </div>
+
+    <p>
+        Esta longitud es fundamental porque permite identificar cuándo las
+        fluctuaciones térmicas comienzan a dominar sobre las contribuciones
+        cuánticas de punto cero.
+    </p>
+
+    <p>En términos generales, aparecen tres regiones:</p>
+
+    <div class="tabla-comparacion">
+        <table>
+            <thead>
+                <tr>
+                    <th>Distancia</th>
+                    <th>Régimen dominante</th>
+                    <th>Dependencia de la energía</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>\(z\ll129\ \mathrm{nm}\)</td>
+                    <td>Van der Waals</td>
+                    <td>\(z^{-3}\)</td>
+                </tr>
+                <tr>
+                    <td>\(129\ \mathrm{nm}\ll z\ll7.63\ \mu\mathrm m\)</td>
+                    <td>Casimir-Polder retardado</td>
+                    <td>\(z^{-4}\)</td>
+                </tr>
+                <tr>
+                    <td>\(z\gg7.63\ \mu\mathrm m\)</td>
+                    <td>Régimen térmico de Lifshitz</td>
+                    <td>\(Tz^{-3}\)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>
+        Las fronteras son aproximadas y dependen del espectro atómico y de la
+        respuesta del material.
+    </p>
+
+    <p>
+        Una consecuencia interesante es que, a temperatura finita, aparece un
+        tercer régimen: después de la transición de \(z^{-3}\) a \(z^{-4}\),
+        la interacción puede volver a presentar una dependencia \(z^{-3}\),
+        pero esta vez dominada por las fluctuaciones térmicas.
+    </p>
+
+    <h3>3. Derivación del régimen térmico de largo alcance</h3>
+
+    <p>
+        Cuando la separación es mucho mayor que la longitud térmica, las
+        contribuciones correspondientes a las frecuencias de Matsubara
+        distintas de cero quedan fuertemente atenuadas por el factor exponencial:
+    </p>
+
+    <div class="formula">
+        \[
+        e^{-2\kappa_nz}
+        \]
+    </div>
+
+    <p>Por tanto, la sumatoria queda dominada por el término de frecuencia cero:</p>
+
+    <div class="formula">
+        \[
+        n=0
+        \]
+    </div>
+
+    <p>
+        Este término es especialmente importante porque representa la
+        contribución electrostática de las fluctuaciones térmicas.
+    </p>
+
+    <p>
+        Para un conductor ideal, el resultado de la aproximación de alta
+        temperatura es:
+    </p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        U_T(z)\approx
+        -\frac{k_BT\alpha(0)}
+        {16\pi\varepsilon_0z^3}
+        }
+        \]
+    </div>
+
+    <p>
+        Observa que esta expresión vuelve a tener una dependencia \(z^{-3}\),
+        pero existe una diferencia fundamental con el régimen de corto alcance:
+    </p>
+
+    <ul>
+        <li>
+            En el régimen de Van der Waals, el coeficiente depende de toda la
+            respuesta dinámica del átomo.
+        </li>
+        <li>
+            En el régimen térmico, el coeficiente depende de la polarizabilidad
+            estática y de la temperatura.
+        </li>
+    </ul>
+
+    <p>
+        Además, aparece explícitamente \(k_BT\), mientras que en el régimen
+        cuántico de largo alcance a temperatura cero aparecía \(\hbar c\).
+    </p>
+
+    <p>
+        Esto permite interpretar el régimen térmico como un comportamiento
+        predominantemente clásico de la interacción electromagnética.
+    </p>
+
+    <h3>4. Cálculo numérico: cesio frente a oro a 300 K</h3>
+
+    <p>
+        Retomemos las propiedades del átomo de cesio utilizadas anteriormente:
+    </p>
+
+    <div class="formula">
+        \[
+        \alpha(0)=
+        6.611\times10^{-39}\ \mathrm{C\,m^2/V}
+        \]
+    </div>
+
+    <p>
+        Para el cálculo utilizaremos nuevamente la aproximación de una
+        superficie perfectamente conductora. Esto nos permitirá aislar el
+        efecto de la temperatura.
+    </p>
+
+    <p>Primero calculamos la constante térmica:</p>
+
+    <div class="formula">
+        \[
+        C_{3,T}=
+        \frac{k_BT\alpha(0)}
+        {16\pi\varepsilon_0}
+        \]
+    </div>
+
+    <p>Sustituyendo:</p>
+
+    <div class="formula">
+        \[
+        C_{3,T}=
+        \frac{
+        (1.380649\times10^{-23})(300)
+        (6.611\times10^{-39})
+        }{
+        16\pi(8.8542\times10^{-12})
+        }
+        \]
+    </div>
+
+    <div class="resultado">
+        <p><strong>Constante térmica obtenida</strong></p>
+        \[
+        \boxed{
+        C_{3,T}=6.15\times10^{-50}\ \mathrm{J\,m^3}
+        }
+        \]
+    </div>
+
+    <p>
+        Ahora podemos calcular la energía y la fuerza a diferentes distancias.
+    </p>
+
+    <h4>Caso A: separación de 1 μm</h4>
+
+    <p>
+        Esta distancia todavía se encuentra en la zona de transición térmica,
+        por lo que no debemos utilizar directamente la aproximación clásica
+        anterior como resultado exacto.
+    </p>
+
+    <p>
+        Sin embargo, sí podemos comparar el orden de magnitud de la energía
+        de Casimir-Polder a temperatura cero:
+    </p>
+
+    <div class="formula">
+        \[
+        U_0(1\ \mu\mathrm m)=
+        -\frac{C_4}{z^4}
+        \]
+        \[
+        \boxed{
+        U_0\approx-2.24\times10^{-31}\ \mathrm J
+        }
+        \]
+    </div>
+
+    <h4>Caso B: separación de 10 μm</h4>
+
+    <p>
+        A esta distancia ya podemos utilizar la aproximación térmica de
+        largo alcance.
+    </p>
+
+    <div class="formula">
+        \[
+        U_T(10\ \mu\mathrm m)=
+        -\frac{6.15\times10^{-50}}{(10^{-5})^3}
+        \]
+    </div>
+
+    <div class="resultado-calculo">
+        <span class="etiqueta-resultado">Régimen térmico</span>
+
+        <p><strong>Energía potencial</strong></p>
+        <div class="formula">
+            \[
+            \boxed{-6.15\times10^{-35}\ \mathrm J}
+            \]
+        </div>
+
+        <p><strong>Fuerza de atracción</strong></p>
+        <div class="formula">
+            \[
+            F_T(z)=-\frac{3C_{3,T}}{z^4}
+            \]
+            \[
+            \boxed{-1.85\times10^{-29}\ \mathrm N}
+            \]
+        </div>
+
+        <p class="nota">
+            Resultados aproximados para una superficie conductora ideal.
+        </p>
+    </div>
+
+    <h4>Comparación con el caso de temperatura cero</h4>
+
+    <p>
+        Para la misma distancia de 10 μm, el modelo de largo alcance a
+        temperatura cero proporciona:
+    </p>
+
+    <div class="formula">
+        \[
+        U_0=-\frac{2.24\times10^{-55}}{(10^{-5})^4}
+        \]
+        \[
+        U_0=-2.24\times10^{-35}\ \mathrm J
+        \]
+    </div>
+
+    <p>Por tanto, podemos comparar:</p>
+
+    <div class="tabla-comparacion">
+        <table>
+            <thead>
+                <tr>
+                    <th>Magnitud</th>
+                    <th>0 K</th>
+                    <th>300 K</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Energía potencial</td>
+                    <td>\(-2.24\times10^{-35}\) J</td>
+                    <td>\(-6.15\times10^{-35}\) J</td>
+                </tr>
+                <tr>
+                    <td>Fuerza</td>
+                    <td>\(-8.97\times10^{-30}\) N</td>
+                    <td>\(-1.85\times10^{-29}\) N</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="resultado">
+        <p><strong>Resultado importante</strong></p>
+        <p>
+            A 10 μm, la contribución térmica hace que la energía de interacción
+            sea aproximadamente 2.75 veces mayor en magnitud que la predicción
+            de temperatura cero.
+        </p>
+        <p class="nota">
+            Estos resultados son comparaciones entre aproximaciones asintóticas,
+            no una evaluación numérica completa de la suma de Matsubara para oro real.
+        </p>
+    </div>
+
+    <h3>5. ¿Qué sucede específicamente con la placa de oro?</h3>
+
+    <p>
+        Hasta ahora hemos considerado el oro como un conductor ideal. Sin
+        embargo, una placa real de oro posee una función dieléctrica dependiente
+        de la frecuencia:
+    </p>
+
+    <div class="formula">
+        \[
+        \varepsilon_{\mathrm{Au}}(i\xi)
+        \]
+    </div>
+
+    <p>
+        A temperatura finita, esta función también interviene en los coeficientes
+        de reflexión de Fresnel:
+    </p>
+
+    <div class="formula">
+        \[
+        r_s(i\xi_n,k),\qquad r_p(i\xi_n,k)
+        \]
+    </div>
+
+    <p>
+        Esto significa que la respuesta de la superficie modifica cada término
+        de la sumatoria de Matsubara.
+    </p>
+
+    <p>
+        En particular, el término \(n=0\) depende de la respuesta del oro a
+        frecuencia cero. Para un metal con conductividad estática finita, la
+        respuesta electrostática conduce al límite de reflexión de un conductor,
+        aunque el comportamiento del modo TE de frecuencia cero requiere
+        tratar cuidadosamente el modelo de respuesta del metal.
+    </p>
+
+    <p>
+        Por eso, para conseguir una predicción experimental precisa sería
+        necesario incorporar:
+    </p>
+
+    <ol>
+        <li>La polarizabilidad dinámica del cesio.</li>
+        <li>La función dieléctrica experimental del oro.</li>
+        <li>Los coeficientes de reflexión para cada frecuencia de Matsubara.</li>
+        <li>La suma de todos los términos relevantes, incluyendo el término cero.</li>
+    </ol>
+
+    <h3>6. Interpretación física y conclusión</h3>
+
+    <p>
+        La introducción de una temperatura de 300 K modifica la interacción de
+        Casimir-Polder porque incorpora las fluctuaciones térmicas del campo
+        electromagnético. A distancias pequeñas, su contribución es generalmente
+        despreciable frente a las fluctuaciones cuánticas de punto cero. Sin
+        embargo, a medida que aumenta la separación, las contribuciones térmicas
+        adquieren importancia hasta dominar la interacción.
+    </p>
+
+    <p>
+        Lo más interesante es que la dependencia de la energía respecto a la
+        distancia cambia nuevamente. A temperatura cero, la interacción
+        retardada presenta una dependencia \(z^{-4}\), mientras que a
+        temperaturas finitas y distancias suficientemente grandes vuelve a
+        presentar una dependencia \(Tz^{-3}\).
+    </p>
+
+    <p>
+        Por tanto, para un átomo de cesio frente a una placa de oro a 300 K,
+        podemos identificar tres comportamientos: Van der Waals,
+        Casimir-Polder retardado y Casimir-Polder térmico. Esta última región
+        demuestra que la temperatura no es simplemente una corrección
+        secundaria, sino un factor capaz de modificar el comportamiento
+        asintótico de las fuerzas cuánticas.
+    </p>
+
+</section>
+
+
+<section id="punto5" class="articulo">
+
+    <span class="numero-seccion">06 / PUNTO 5</span>
+    <h2>Disciplinamiento de un reloj atómico de Cesio-133: fundamentos conceptuales, matemáticos y experimentales</h2>
+
+    <p>
+        Antes de desarrollar el tema, conviene aclarar un concepto: en física,
+        cuando hablamos de disciplinar un reloj atómico, nos referimos al proceso
+        de estabilizar y controlar un oscilador electrónico utilizando una
+        transición cuántica del átomo como referencia de frecuencia. Este
+        procedimiento también se conoce como <strong>disciplinamiento de frecuencia</strong>
+        (frequency locking).
+    </p>
+
+    <p>
+        El átomo de cesio no funciona como un reloj mecánico que oscila
+        continuamente. En realidad, posee dos estados energéticos cuya diferencia
+        está asociada a una frecuencia de transición extremadamente estable.
+        El reloj utiliza esta propiedad para corregir las desviaciones de un
+        oscilador electrónico y producir una señal temporal precisa.
+    </p>
+
+    <p>
+        El caso del cesio-133 es especialmente importante porque su transición
+        hiperfina fundamental constituye la referencia utilizada para definir
+        el segundo en el Sistema Internacional de Unidades.
+    </p>
+
+    <h3>1. Fundamento físico: ¿por qué se utiliza el cesio-133?</h3>
+
+    <p>
+        El cesio-133 es un átomo alcalino que posee un único electrón en su capa
+        electrónica más externa. Su estado electrónico fundamental corresponde a:
+    </p>
+
+    <div class="formula">
+        \[
+        6\,^2S_{1/2}
+        \]
+    </div>
+
+    <p>El núcleo del cesio-133 tiene un espín nuclear:</p>
+
+    <div class="formula">
+        \[
+        I=\frac{7}{2}
+        \]
+    </div>
+
+    <p>El electrón posee un momento angular total:</p>
+
+    <div class="formula">
+        \[
+        J=\frac{1}{2}
+        \]
+    </div>
+
+    <p>
+        La interacción entre el momento magnético nuclear y el momento magnético
+        electrónico produce una división de los niveles energéticos, fenómeno
+        conocido como <strong>estructura hiperfina</strong>.
+    </p>
+
+    <p>El momento angular total del átomo se obtiene mediante:</p>
+
+    <div class="formula">
+        \[
+        \vec F=\vec I+\vec J
+        \]
+    </div>
+
+    <p>Por tanto, existen dos valores posibles:</p>
+
+    <div class="formula">
+        \[
+        F=I+J=4
+        \]
+        \[
+        F=I-J=3
+        \]
+    </div>
+
+    <p>
+        Estos dos estados corresponden a niveles energéticos ligeramente
+        diferentes dentro del estado fundamental del átomo.
+    </p>
+
+    <p>
+        La diferencia energética entre ambos niveles corresponde exactamente
+        a la frecuencia de referencia del reloj:
+    </p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        \Delta\nu_{\mathrm{Cs}}=
+        9\,192\,631\,770\ \mathrm{Hz}
+        }
+        \]
+    </div>
+
+    <p>La relación entre la energía y la frecuencia está dada por:</p>
+
+    <div class="formula">
+        \[
+        \Delta E=h\Delta\nu_{\mathrm{Cs}}
+        \]
+    </div>
+
+    <p>Donde \(h\) es la constante de Planck. Sustituyendo:</p>
+
+    <div class="formula">
+        \[
+        \Delta E=
+        (6.62607015\times10^{-34})
+        (9.192631770\times10^9)
+        \]
+        \[
+        \boxed{
+        \Delta E\approx6.091\times10^{-24}\ \mathrm J
+        }
+        \]
+    </div>
+
+    <p>
+        Esta diferencia energética es la que permite utilizar el cesio como
+        referencia de tiempo.
+    </p>
+
+    <div class="resultado">
+        <strong>Importancia metrológica</strong>
+        <p>
+            Desde la redefinición del SI de 2019, el valor numérico de esta
+            frecuencia se considera exacto por definición. El segundo corresponde
+            a 9 192 631 770 períodos de la radiación asociada a esta transición
+            hiperfina no perturbada.
+        </p>
+    </div>
+
+    <h3>2. ¿Qué significa disciplinar el reloj atómico?</h3>
+
+    <p>
+        Un reloj atómico necesita un oscilador electrónico que genere una señal
+        periódica cercana a los 9.192 GHz. Sin embargo, ningún oscilador electrónico
+        real mantiene una frecuencia perfectamente constante: presenta pequeñas
+        desviaciones debido a fluctuaciones térmicas, componentes electrónicos,
+        ruido y envejecimiento.
+    </p>
+
+    <p>
+        Para solucionar este problema se utiliza la transición hiperfina del
+        cesio como referencia.
+    </p>
+
+    <p>
+        El procedimiento consiste en comparar continuamente la frecuencia del
+        oscilador electrónico con la respuesta de los átomos de cesio.
+    </p>
+
+    <p>
+        Si la frecuencia aplicada es demasiado alta o demasiado baja, cambia
+        la probabilidad de transición entre los estados hiperfinos. Midiendo
+        esta variación, el sistema determina en qué dirección debe corregir
+        el oscilador.
+    </p>
+
+    <p>
+        El proceso se conoce como <strong>lazo de enganche de frecuencia</strong>,
+        o Frequency Lock Loop (FLL).
+    </p>
+
+    <p>La idea fundamental puede resumirse así:</p>
+
+    <ol>
+        <li>El oscilador electrónico genera una señal de microondas.</li>
+        <li>Esta señal interactúa con los átomos de cesio.</li>
+        <li>Se mide cuántos átomos experimentan la transición hiperfina.</li>
+        <li>Se compara el resultado con el comportamiento esperado en resonancia.</li>
+        <li>Un circuito de retroalimentación corrige la frecuencia del oscilador.</li>
+    </ol>
+
+    <p>
+        De esta manera, el oscilador electrónico queda disciplinado por la
+        referencia cuántica proporcionada por el cesio.
+    </p>
+
+    <h3>3. Descripción matemática del disciplinamiento</h3>
+
+    <p>
+        Para comprender rigurosamente el funcionamiento del reloj, debemos
+        estudiar cómo responde el átomo cuando recibe una señal electromagnética
+        cuya frecuencia se encuentra cerca de su frecuencia de resonancia.
+    </p>
+
+    <h4>3.1. Frecuencia de resonancia y desviación</h4>
+
+    <p>Definimos la frecuencia natural de transición del cesio como:</p>
+
+    <div class="formula">
+        \[
+        \nu_0=9\,192\,631\,770\ \mathrm{Hz}
+        \]
+    </div>
+
+    <p>El oscilador electrónico genera una frecuencia:</p>
+
+    <div class="formula">
+        \[
+        \nu_{\mathrm{LO}}=\nu_0+\delta\nu
+        \]
+    </div>
+
+    <p>Donde:</p>
+
+    <ul>
+        <li>\(\nu_{\mathrm{LO}}\): frecuencia del oscilador local.</li>
+        <li>\(\nu_0\): frecuencia de referencia atómica.</li>
+        <li>\(\delta\nu\): desviación respecto a la resonancia.</li>
+    </ul>
+
+    <p>El objetivo del disciplinamiento es conseguir:</p>
+
+    <div class="formula">
+        \[
+        \boxed{\delta\nu\longrightarrow 0}
+        \]
+    </div>
+
+    <p>
+        Es decir, ajustar continuamente el oscilador para que coincida con
+        la frecuencia de transición del cesio.
+    </p>
+
+    <h4>3.2. Interacción del átomo con el campo electromagnético</h4>
+
+    <p>
+        La transición hiperfina se produce mediante la interacción magnética
+        entre el campo de microondas y el momento magnético del átomo.
+    </p>
+
+    <p>El Hamiltoniano de interacción puede expresarse como:</p>
+
+    <div class="formula">
+        \[
+        \hat H(t)=\hat H_0-
+        \hat{\boldsymbol{\mu}}\cdot\mathbf B(t)
+        \]
+    </div>
+
+    <p>Donde:</p>
+
+    <ul>
+        <li>\(\hat H_0\) representa el Hamiltoniano interno del átomo.</li>
+        <li>\(\hat{\boldsymbol{\mu}}\) es el operador de momento magnético.</li>
+        <li>\(\mathbf B(t)\) es el campo magnético oscilante de microondas.</li>
+    </ul>
+
+    <p>La señal aplicada puede representarse como:</p>
+
+    <div class="formula">
+        \[
+        \mathbf B(t)=B_0\cos(2\pi\nu_{\mathrm{LO}}t)
+        \hat{\mathbf e}
+        \]
+    </div>
+
+    <p>
+        La probabilidad de que el átomo cambie de estado depende de la diferencia
+        entre la frecuencia aplicada y la frecuencia de resonancia.
+    </p>
+
+    <p>
+        En otras palabras, cuando el oscilador se aproxima a la frecuencia
+        correcta, aumenta la probabilidad de transición.
+    </p>
+
+    <h4>3.3. Interrogación de Ramsey: el mecanismo que permite disciplinar la frecuencia</h4>
+
+    <p>
+        Una de las técnicas más importantes utilizadas en los relojes de cesio
+        es el método de separación de campos oscilatorios, desarrollado por
+        Norman Ramsey.
+    </p>
+
+    <p>
+        Consiste en aplicar dos pulsos de microondas separados por un intervalo
+        de tiempo durante el cual los átomos evolucionan libremente.
+    </p>
+
+    <p>
+        En una fuente atómica tipo fuente de cesio (cesium fountain), los átomos
+        atraviesan una cavidad de microondas dos veces: una durante el ascenso
+        y otra durante el descenso.
+    </p>
+
+    <p>
+        Durante el primer pulso, el átomo se prepara en una superposición
+        cuántica de los dos estados hiperfinos. Posteriormente, durante el
+        tiempo de evolución libre \(T_R\), la fase relativa de ambos estados
+        evoluciona según la diferencia de frecuencia.
+    </p>
+
+    <p>
+        El segundo pulso permite convertir esa diferencia de fase en una
+        probabilidad de transición medible.
+    </p>
+
+    <p>
+        Para pulsos ideales de \(\pi/2\), una expresión simplificada de la
+        probabilidad de encontrar el átomo en uno de los estados finales es:
+    </p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        P_4(\delta\nu)=
+        \frac{1}{2}
+        \left[
+        1+\cos(2\pi\delta\nu T_R)
+        \right]
+        }
+        \]
+    </div>
+
+    <p>
+        Esta expresión supone que los efectos de las fases de los pulsos están
+        compensados y que se ha elegido adecuadamente la fase de referencia.
+    </p>
+
+    <p>Donde:</p>
+
+    <ul>
+        <li>\(P_4\): probabilidad de encontrar el átomo en \(F=4\).</li>
+        <li>\(\delta\nu\): diferencia entre la frecuencia aplicada y la resonancia.</li>
+        <li>\(T_R\): tiempo de evolución libre entre los dos pulsos.</li>
+    </ul>
+
+    <p>Cuando:</p>
+
+    <div class="formula">
+        \[
+        \delta\nu=0
+        \]
+    </div>
+
+    <p>Se obtiene:</p>
+
+    <div class="formula">
+        \[
+        P_4(0)=1
+        \]
+    </div>
+
+    <p>
+        En esta idealización, la transición alcanza su probabilidad máxima.
+        Por otro lado, si la frecuencia aplicada se desvía de la resonancia,
+        la probabilidad de transición cambia.
+    </p>
+
+    <p>
+        <strong>¿Por qué es importante?</strong> Porque permite transformar
+        una diferencia de frecuencia extremadamente pequeña en una variación
+        observable de la población de los estados atómicos.
+    </p>
+
+    <h4>3.4. Sensibilidad y resolución de la frecuencia</h4>
+
+    <p>
+        La separación temporal entre los pulsos determina la sensibilidad del reloj.
+    </p>
+
+    <p>La probabilidad presenta franjas de Ramsey, cuya separación característica es:</p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        \Delta\nu_{\mathrm{franjas}}=\frac{1}{T_R}
+        }
+        \]
+    </div>
+
+    <p>Por ejemplo, si el tiempo de evolución libre es:</p>
+
+    <div class="formula">
+        \[
+        T_R=0.5\ \mathrm s
+        \]
+    </div>
+
+    <p>Entonces:</p>
+
+    <div class="formula">
+        \[
+        \Delta\nu_{\mathrm{franjas}}=
+        \frac{1}{0.5}
+        \]
+        \[
+        \boxed{
+        \Delta\nu_{\mathrm{franjas}}=2\ \mathrm{Hz}
+        }
+        \]
+    </div>
+
+    <p>
+        Esto significa que un mayor tiempo de evolución libre produce franjas
+        más estrechas y permite discriminar desviaciones de frecuencia más pequeñas.
+    </p>
+
+    <p>
+        No significa que la incertidumbre final del reloj sea necesariamente
+        de 2 Hz: mediante la medición estadística de muchos átomos y ciclos
+        de interrogación se pueden estimar desplazamientos mucho menores.
+    </p>
+
+    <h3>4. El sistema de retroalimentación: cómo se corrige el oscilador</h3>
+
+    <p>
+        La interrogación de Ramsey proporciona información sobre la desviación
+        de frecuencia, pero todavía necesitamos un mecanismo que utilice esa
+        información para corregir el oscilador.
+    </p>
+
+    <p>Aquí entra en funcionamiento el circuito de retroalimentación.</p>
+
+    <p>
+        En lugar de medir únicamente la probabilidad de transición en la
+        frecuencia central, el sistema realiza mediciones ligeramente por
+        encima y por debajo de la resonancia.
+    </p>
+
+    <p>Definimos dos frecuencias de prueba:</p>
+
+    <div class="formula">
+        \[
+        \nu_+=\nu_{\mathrm{LO}}+\delta_m
+        \]
+        \[
+        \nu_-=\nu_{\mathrm{LO}}-\delta_m
+        \]
+    </div>
+
+    <p>
+        Donde \(\delta_m\) es una pequeña separación respecto a la frecuencia
+        del oscilador.
+    </p>
+
+    <p>A partir de las dos mediciones se construye una señal de error:</p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        E=P_4(\nu_+)-P_4(\nu_-)
+        }
+        \]
+    </div>
+
+    <p>Esta señal permite determinar el sentido de la desviación:</p>
+
+    <ul>
+        <li>
+            Si \(E>0\), el oscilador se encuentra desplazado hacia un lado
+            de la resonancia.
+        </li>
+        <li>
+            Si \(E<0\), se encuentra desplazado hacia el lado contrario.
+        </li>
+        <li>
+            Si \(E=0\), se ha alcanzado el centro de la resonancia, siempre
+            que se utilice la franja central y una configuración adecuada.
+        </li>
+    </ul>
+
+    <p>
+        La corrección se aplica mediante un algoritmo de control, que puede
+        representarse de manera simplificada como:
+    </p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        \nu_{\mathrm{LO}}^{(j+1)}
+        =
+        \nu_{\mathrm{LO}}^{(j)}-gE_j
+        }
+        \]
+    </div>
+
+    <p>Donde:</p>
+
+    <ul>
+        <li>\(j\): número del ciclo de medición.</li>
+        <li>\(g\): ganancia del sistema de control.</li>
+        <li>\(E_j\): señal de error obtenida durante el ciclo.</li>
+    </ul>
+
+    <p>
+        El signo de la ganancia depende de cómo se defina la señal de error.
+        Su función es asegurar que cada corrección reduzca la desviación.
+    </p>
+
+    <p>
+        Este procedimiento se repite continuamente, de modo que el oscilador
+        permanece sincronizado con la referencia atómica.
+    </p>
+
+    <p>
+        Es importante distinguir dos funciones: los átomos proporcionan la
+        referencia de frecuencia, mientras que el oscilador electrónico produce
+        la señal continua que se utiliza para medir el tiempo.
+    </p>
+
+    <h3>5. Descripción experimental: construcción de un reloj de fuente atómica de cesio</h3>
+
+    <p>
+        Una de las realizaciones experimentales más precisas de un reloj de
+        cesio es el denominado reloj de fuente atómica o cesium fountain clock.
+    </p>
+
+    <p>
+        Su funcionamiento se basa en enfriar una nube de átomos, lanzarla
+        verticalmente y utilizar su trayectoria para aumentar el tiempo durante
+        el cual puede ser interrogada por la radiación de microondas.
+    </p>
+
+    <p>El proceso experimental puede dividirse en siete etapas.</p>
+
+    <h4>Etapa 1. Preparación de los átomos</h4>
+
+    <p>
+        Se introduce vapor de cesio-133 en una cámara de vacío. Posteriormente,
+        mediante seis haces láser dispuestos en direcciones perpendiculares,
+        se captura y enfría una nube de átomos.
+    </p>
+
+    <p>
+        Esta técnica se conoce como enfriamiento láser y permite reducir la
+        velocidad térmica de los átomos hasta alcanzar temperaturas de unos
+        pocos microkelvin.
+    </p>
+
+    <p>
+        El objetivo es disminuir su movimiento para aumentar el tiempo de
+        interacción con el campo electromagnético.
+    </p>
+
+    <h4>Etapa 2. Preparación del estado cuántico</h4>
+
+    <p>
+        Mediante técnicas de bombeo óptico se prepara la población atómica
+        en un estado hiperfino determinado.
+    </p>
+
+    <p>La transición de referencia corresponde a:</p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        |F=3,m_F=0\rangle
+        \longleftrightarrow
+        |F=4,m_F=0\rangle
+        }
+        \]
+    </div>
+
+    <p>
+        La elección de los estados con \(m_F=0\) es importante porque reduce
+        la sensibilidad de la transición a los campos magnéticos externos
+        en primer orden.
+    </p>
+
+    <h4>Etapa 3. Lanzamiento de la fuente atómica</h4>
+
+    <p>
+        Los átomos reciben un impulso vertical controlado mediante los haces láser.
+    </p>
+
+    <p>Su trayectoria se aproxima mediante las ecuaciones del movimiento parabólico:</p>
+
+    <div class="formula">
+        \[
+        z(t)=v_0t-\frac{1}{2}gt^2
+        \]
+    </div>
+
+    <p>Donde:</p>
+
+    <ul>
+        <li>\(v_0\): velocidad inicial.</li>
+        <li>\(g\): aceleración gravitacional.</li>
+        <li>\(t\): tiempo transcurrido.</li>
+    </ul>
+
+    <p>
+        La nube asciende, alcanza una altura máxima y posteriormente comienza
+        a descender.
+    </p>
+
+    <h4>Etapa 4. Interrogación mediante microondas</h4>
+
+    <p>
+        Durante el ascenso y el descenso, los átomos atraviesan una cavidad
+        de microondas.
+    </p>
+
+    <p>
+        En el primer paso reciben el primer pulso de Ramsey, que genera la
+        superposición de estados.
+    </p>
+
+    <p>
+        Después evolucionan libremente durante un intervalo de tiempo y,
+        al atravesar nuevamente la cavidad, reciben el segundo pulso.
+    </p>
+
+    <p>
+        Este procedimiento permite medir la diferencia de fase acumulada
+        entre los estados hiperfinos.
+    </p>
+
+    <h4>Etapa 5. Detección de los estados atómicos</h4>
+
+    <p>
+        Al finalizar la trayectoria, los átomos atraviesan dos regiones
+        de detección láser.
+    </p>
+
+    <p>
+        Cada región está configurada para detectar uno de los estados
+        hiperfinos mediante fluorescencia.
+    </p>
+
+    <p>
+        La intensidad de la luz detectada permite determinar la población
+        relativa de cada estado:
+    </p>
+
+    <div class="formula">
+        \[
+        P_3=\frac{N_3}{N_3+N_4}
+        \]
+        \[
+        P_4=\frac{N_4}{N_3+N_4}
+        \]
+    </div>
+
+    <p>
+        Donde \(N_3\) y \(N_4\) representan el número de átomos detectados
+        en cada estado.
+    </p>
+
+    <h4>Etapa 6. Corrección de frecuencia</h4>
+
+    <p>
+        El sistema electrónico analiza las poblaciones medidas y calcula
+        la señal de error.
+    </p>
+
+    <p>
+        Esta información se envía al sintetizador de microondas, que modifica
+        la frecuencia del oscilador para aproximarla a la resonancia atómica.
+    </p>
+
+    <p>
+        El procedimiento se repite miles de veces por hora, dependiendo
+        del diseño del reloj.
+    </p>
+
+    <h4>Etapa 7. Generación de la señal temporal</h4>
+
+    <p>
+        Una vez estabilizado el oscilador, se obtiene una señal de frecuencia
+        vinculada a la transición del cesio.
+    </p>
+
+    <p>
+        Mediante divisores y sintetizadores de frecuencia pueden generarse
+        señales de salida de 10 MHz, 5 MHz u otras frecuencias útiles para
+        sistemas de telecomunicaciones, navegación y metrología.
+    </p>
+
+    <p>
+        La secuencia experimental está documentada por el NIST en sus
+        descripciones de los relojes de fuente atómica NIST-F1 y NIST-F2.
+    </p>
+
+    <h3>6. Perturbaciones experimentales: ¿qué impide que el reloj sea perfecto?</h3>
+
+    <p>
+        Aunque la transición hiperfina del cesio constituye una referencia
+        extremadamente estable, en un experimento real los átomos no se
+        encuentran completamente aislados.
+    </p>
+
+    <p>
+        Existen diferentes factores que pueden modificar ligeramente la
+        frecuencia de transición.
+    </p>
+
+    <p>
+        Por ello, disciplinar un reloj atómico no consiste únicamente en
+        encontrar la frecuencia de resonancia, sino también en identificar
+        y corregir los desplazamientos sistemáticos que afectan esa resonancia.
+    </p>
+
+    <p>Los principales son:</p>
+
+    <div class="tabla-comparacion">
+        <table>
+            <thead>
+                <tr>
+                    <th>Perturbación</th>
+                    <th>Efecto físico</th>
+                    <th>Consecuencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Campo magnético (Zeeman)</td>
+                    <td>Modifica los niveles hiperfinos</td>
+                    <td>Desplazamiento de frecuencia</td>
+                </tr>
+                <tr>
+                    <td>Radiación térmica</td>
+                    <td>Produce desplazamiento Stark</td>
+                    <td>Variación de la resonancia</td>
+                </tr>
+                <tr>
+                    <td>Colisiones atómicas</td>
+                    <td>Modifican las interacciones entre átomos</td>
+                    <td>Desplazamiento colisional</td>
+                </tr>
+                <tr>
+                    <td>Movimiento atómico</td>
+                    <td>Produce efectos Doppler y relativistas</td>
+                    <td>Variación de frecuencia</td>
+                </tr>
+                <tr>
+                    <td>Radiación de microondas</td>
+                    <td>Puede generar efectos de cavidad</td>
+                    <td>Error sistemático</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h4>6.1. Efecto Zeeman</h4>
+
+    <p>
+        Los campos magnéticos externos modifican los niveles energéticos del cesio.
+    </p>
+
+    <p>
+        Para la transición de reloj entre los estados \(m_F=0\), el
+        desplazamiento dominante es cuadrático:
+    </p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        \Delta\nu_Z=K_ZB^2
+        }
+        \]
+    </div>
+
+    <p>
+        Donde \(B\) es el campo magnético y \(K_Z\) es el coeficiente de
+        desplazamiento Zeeman de segundo orden.
+    </p>
+
+    <p>
+        Por ello, los relojes utilizan blindajes magnéticos y campos de
+        referencia controlados.
+    </p>
+
+    <h4>6.2. Desplazamiento por radiación térmica</h4>
+
+    <p>
+        La radiación electromagnética del entorno produce un desplazamiento
+        Stark debido al campo eléctrico térmico.
+    </p>
+
+    <p>Una expresión aproximada para el desplazamiento fraccional es:</p>
+
+    <div class="formula">
+        \[
+        \frac{\Delta\nu_{\mathrm{BBR}}}{\nu_0}
+        \approx
+        \frac{k_0E_{300}^2}{\nu_0}
+        \left(\frac{T}{300}\right)^4
+        \]
+    </div>
+
+    <p>Donde:</p>
+
+    <ul>
+        <li>\(k_0\) es el coeficiente Stark de la transición.</li>
+        <li>\(E_{300}=831.9\ \mathrm{V/m}\) es el campo eléctrico eficaz de la radiación térmica a 300 K.</li>
+        <li>\(T\) es la temperatura del entorno.</li>
+    </ul>
+
+    <p>
+        Este efecto es especialmente importante porque demuestra que incluso
+        la temperatura de la cámara puede influir en la precisión del reloj.
+    </p>
+
+    <h4>6.3. Efectos relativistas</h4>
+
+    <p>
+        Los átomos en movimiento también experimentan correcciones relativistas.
+    </p>
+
+    <p>
+        Para velocidades mucho menores que la velocidad de la luz, el
+        desplazamiento Doppler relativista de segundo orden se aproxima mediante:
+    </p>
+
+    <div class="formula">
+        \[
+        \frac{\Delta\nu}{\nu_0}
+        \approx-\frac{v^2}{2c^2}
+        \]
+    </div>
+
+    <p>
+        Además, la frecuencia de un reloj depende del potencial gravitacional
+        en el que se encuentra.
+    </p>
+
+    <p>
+        Por ello, los relojes de alta precisión necesitan correcciones
+        relativistas para comparar correctamente sus frecuencias cuando
+        están situados a diferentes alturas.
+    </p>
+
+    <p>
+        Estos efectos, junto con las colisiones y las perturbaciones de la
+        cavidad, forman parte del presupuesto de incertidumbre experimental
+        de un reloj atómico.
+    </p>
+
+    <h3>7. Ejemplo numérico: estabilidad del reloj de cesio</h3>
+
+    <p>
+        Consideremos un reloj cuyo oscilador presenta una desviación inicial de:
+    </p>
+
+    <div class="formula">
+        \[
+        \delta\nu=10\ \mathrm{Hz}
+        \]
+    </div>
+
+    <p>Respecto a la frecuencia de referencia:</p>
+
+    <div class="formula">
+        \[
+        \nu_0=9\,192\,631\,770\ \mathrm{Hz}
+        \]
+    </div>
+
+    <p>La frecuencia inicial será:</p>
+
+    <div class="formula">
+        \[
+        \nu_{\mathrm{LO}}=
+        9\,192\,631\,780\ \mathrm{Hz}
+        \]
+    </div>
+
+    <p>La desviación relativa se calcula mediante:</p>
+
+    <div class="formula">
+        \[
+        y=\frac{\delta\nu}{\nu_0}
+        \]
+        \[
+        y=
+        \frac{10}{9\,192\,631\,770}
+        \]
+        \[
+        \boxed{
+        y\approx1.088\times10^{-9}
+        }
+        \]
+    </div>
+
+    <p>
+        Esto significa que el oscilador presenta un error relativo de
+        aproximadamente una parte en mil millones.
+    </p>
+
+    <p>
+        Ahora imaginemos que el sistema de retroalimentación consigue reducir
+        esa desviación hasta:
+    </p>
+
+    <div class="formula">
+        \[
+        \delta\nu=10^{-6}\ \mathrm{Hz}
+        \]
+    </div>
+
+    <p>La nueva desviación relativa será:</p>
+
+    <div class="formula">
+        \[
+        y=
+        \frac{10^{-6}}{9\,192\,631\,770}
+        \]
+        \[
+        \boxed{
+        y\approx1.088\times10^{-16}
+        }
+        \]
+    </div>
+
+    <p>
+        Esto ilustra la capacidad del disciplinamiento para reducir
+        desviaciones de frecuencia extremadamente pequeñas.
+    </p>
+
+    <p>
+        Es importante señalar que este ejemplo representa una corrección
+        hipotética del oscilador, no una medición experimental de un reloj
+        específico. La incertidumbre real depende del ruido, del tiempo de
+        integración y de las correcciones sistemáticas.
+    </p>
+
+    <h3>8. Síntesis: esquema completo del funcionamiento</h3>
+
+    <p>
+        El funcionamiento de un reloj atómico de cesio puede representarse
+        mediante el siguiente flujo:
+    </p>
+
+    <div class="flujo-reloj">
+        <div class="flujo-paso">Preparación de átomos de Cs-133</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso">Captura, enfriamiento y bombeo óptico</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso">Interrogación de Ramsey</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso">Dos pulsos de microondas y evolución libre</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso">Detección de fluorescencia</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso">Medición de las poblaciones hiperfinas</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso">Discriminador de frecuencia</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso">Cálculo del error de resonancia</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso">Servo electrónico</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso">Corrección del oscilador de microondas</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso flujo-final">Señal de frecuencia disciplinada</div>
+        <div class="flujo-flecha">↓</div>
+        <div class="flujo-paso flujo-final">Referencia para la medición del tiempo</div>
+    </div>
+
+    <h3>9. Conclusión</h3>
+
+    <p>
+        El disciplinamiento de un reloj atómico de cesio-133 es un procedimiento
+        que combina principios de mecánica cuántica, electrodinámica y electrónica
+        de control. Su funcionamiento se fundamenta en la transición hiperfina
+        entre los estados \(F=3\) y \(F=4\) del estado fundamental del átomo,
+        cuya frecuencia constituye la referencia para definir el segundo.
+    </p>
+
+    <p>
+        Mediante la técnica de Ramsey, se convierte una diferencia de frecuencia
+        en una variación medible de la probabilidad de transición. Posteriormente,
+        un sistema electrónico de retroalimentación utiliza esa información
+        para corregir el oscilador de microondas y mantenerlo sincronizado con
+        la resonancia atómica.
+    </p>
+
+    <p>
+        Sin embargo, la precisión del reloj también depende del control de
+        perturbaciones externas, como los campos magnéticos, la radiación
+        térmica, las colisiones y los efectos relativistas. Por ello, un
+        reloj atómico no es simplemente un dispositivo que cuenta oscilaciones,
+        sino un sistema experimental de referencia que combina la estabilidad
+        de una transición cuántica con técnicas avanzadas de medición y control.
+    </p>
+
+</section>
+
+<section id="punto6" class="articulo">
+
+    <span class="numero-seccion">07 / PUNTO 6</span>
+
+    <h2>Conceptos del temario relacionados con la investigación del reloj atómico de cesio-133</h2>
+
+    <p>
+        El funcionamiento de un reloj atómico de cesio-133 se fundamenta en
+        la interacción entre los átomos y los campos electromagnéticos.
+        Para comprender cómo se obtiene una referencia de frecuencia
+        extremadamente estable, es necesario relacionar diferentes conceptos
+        de electricidad y magnetismo con los fenómenos físicos que ocurren
+        dentro del dispositivo.
+    </p>
+
+    <h3>1. Fuerza eléctrica y campo eléctrico (1.1)</h3>
+
+    <p>
+        Permiten comprender las interacciones eléctricas dentro del átomo
+        y cómo los campos eléctricos externos pueden modificar sus niveles
+        de energía. Estas perturbaciones pueden alterar ligeramente la
+        frecuencia de transición del cesio.
+    </p>
+
+    <h3>2. Características físicas del campo electrostático (1.5)</h3>
+
+    <p>
+        Se relacionan con el efecto Stark, mediante el cual un campo eléctrico
+        puede modificar los niveles energéticos de un átomo. En el reloj
+        atómico, este fenómeno puede producir pequeños desplazamientos en
+        la frecuencia de resonancia.
+    </p>
+
+    <h3>3. Fuerza magnética y campo magnético (3.1)</h3>
+
+    <p>
+        Explican la interacción del momento magnético del átomo con campos
+        magnéticos externos. Esta interacción produce el desplazamiento
+        Zeeman de los niveles energéticos, por lo que es necesario controlar
+        los campos magnéticos para evitar errores en la medición del tiempo.
+    </p>
+
+    <h3>4. Vector de inducción magnética (3.2)</h3>
+
+    <p>
+        El vector de inducción magnética representa la intensidad y dirección
+        del campo magnético mediante el vector \(\vec{B}\). Su estabilidad
+        es fundamental para controlar los desplazamientos Zeeman y mantener
+        constante la frecuencia de referencia del reloj.
+    </p>
+
+    <h3>5. Ley de Faraday-Lenz (4.1)</h3>
+
+    <p>
+        Describe cómo un campo magnético variable en el tiempo puede inducir
+        una fuerza electromotriz y un campo eléctrico. Este fenómeno resulta
+        relevante en los sistemas electromagnéticos del reloj, ya que las
+        variaciones de los campos pueden introducir perturbaciones en el
+        entorno de los átomos.
+    </p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        \mathcal{E}=-\frac{d\Phi_B}{dt}
+        }
+        \]
+    </div>
+
+    <h3>6. Ecuaciones de onda eléctrica y magnética (4.8)</h3>
+
+    <p>
+        Permiten estudiar la propagación de las ondas electromagnéticas,
+        especialmente las microondas utilizadas para estimular las
+        transiciones entre los estados hiperfinos del cesio-133.
+        Estas ondas deben tener una frecuencia muy precisa para provocar
+        la transición atómica deseada.
+    </p>
+
+    <h3>7. Campo electromagnético (4.9)</h3>
+
+    <p>
+        Integra los campos eléctrico y magnético que componen las ondas
+        electromagnéticas. En el reloj atómico, las microondas generan
+        la interacción necesaria para inducir transiciones entre los
+        estados hiperfinos del cesio-133 y obtener una referencia
+        extremadamente estable de frecuencia.
+    </p>
+
+    <div class="formula">
+        \[
+        \boxed{
+        \nu_{\mathrm{Cs}}=9\,192\,631\,770\ \mathrm{Hz}
+        }
+        \]
+    </div>
+
+    <p>
+        Esta es la frecuencia de la transición hiperfina del estado
+        fundamental del cesio-133 que define el segundo en el Sistema
+        Internacional de Unidades.
+    </p>
+
+    <h3>Relación general con la investigación</h3>
+
+    <div class="resultado">
+        <p>
+            Los conceptos de electricidad y magnetismo permiten comprender
+            cómo los campos electromagnéticos interactúan con los átomos
+            de cesio-133, cómo pueden modificar sus niveles energéticos
+            y alterar su frecuencia de resonancia.
+        </p>
+
+        <p>
+            Por esta razón, es necesario controlar las perturbaciones
+            eléctricas y magnéticas que rodean al átomo, garantizando
+            que la frecuencia utilizada como referencia permanezca
+            estable y que el reloj atómico conserve su elevada precisión.
+        </p>
+    </div>
+
+</section>
+
+<section id="punto7" class="articulo">
+
+    <span class="numero-seccion">08 / PUNTO 7</span>
+
+    <h2>Tres aspectos importantes para un ingeniero electrónico</h2>
+
+    <p>
+        El estudio del reloj atómico de cesio-133 no solamente permite
+        comprender fenómenos relacionados con el electromagnetismo y la
+        mecánica cuántica, sino que también demuestra la importancia de
+        estos conocimientos en el desarrollo de tecnologías avanzadas.
+        Desde la perspectiva de la ingeniería electrónica, se pueden
+        destacar tres aspectos fundamentales:
+    </p>
+
+    <h3>1. Precisión en sistemas electrónicos</h3>
+
+    <p>
+        El funcionamiento del reloj atómico demuestra la importancia de
+        diseñar osciladores y circuitos de control capaces de mantener
+        frecuencias extremadamente estables. Esta característica es
+        fundamental en aplicaciones como las telecomunicaciones, la
+        navegación mediante GPS y la sincronización de redes, donde
+        pequeñas variaciones de frecuencia pueden generar errores
+        importantes en la transmisión y medición de señales.
+    </p>
+
+    <h3>2. Control de interferencias electromagnéticas</h3>
+
+    <p>
+        El estudio de las perturbaciones eléctricas y magnéticas permite
+        comprender cómo los campos externos pueden alterar el funcionamiento
+        de los dispositivos electrónicos. Este conocimiento resulta
+        fundamental para diseñar sistemas con blindaje electromagnético,
+        filtros y mecanismos de protección que reduzcan las interferencias
+        y garanticen un funcionamiento estable y confiable.
+    </p>
+
+    <h3>3. Aplicación de la física en tecnología avanzada</h3>
+
+    <p>
+        El reloj atómico representa una aplicación directa de los principios
+        del electromagnetismo y la mecánica cuántica en el desarrollo
+        tecnológico. Demuestra cómo el conocimiento de los fenómenos
+        físicos a escala atómica permite construir instrumentos de alta
+        precisión, sensores especializados y sistemas avanzados de
+        medición que tienen aplicaciones científicas e industriales.
+    </p>
+
+    <div class="resultado">
+        <p><strong>Importancia para la ingeniería electrónica</strong></p>
+
+        <p>
+            Estos tres aspectos muestran que la ingeniería electrónica
+            no se limita al diseño de circuitos, sino que también requiere
+            comprender los principios físicos que determinan su
+            comportamiento. El reloj atómico de cesio-133 es un ejemplo
+            de cómo la precisión, el control electromagnético y la
+            aplicación de la física permiten desarrollar tecnologías
+            fundamentales para la sociedad moderna.
+        </p>
+    </div>
+
+    
+    
+</section>
+
+    <div class="separador"></div>
+
+    <!-- GLOSARIO -->
+
+    <section id="glosario" class="articulo">
+
+      <span class="numero-seccion">09 / CONCEPTOS</span>
+      <h2>Glosario</h2>
+
+      <div class="definicion">
+        <h3>Balanza de torsión</h3>
+        <p>
+          Una balanza de torsión es un instrumento de alta
+          sensibilidad que mide fuerzas muy pequeñas mediante
+          la torsión de un hilo, cable o filamento elástico.
+        </p>
+      </div>
+
+      <div class="definicion">
+        <h3>Microscopio de fuerza atómica</h3>
+        <p>
+          Es un instrumento de barrido de alta resolución que mide
+          la topografía y las propiedades físicas de una superficie
+          a escala nanométrica o atómica mediante una punta afilada
+          montada en un cantiléver flexible.
+        </p>
+      </div>
+
+      <div class="definicion">
+        <h3>Polarización inducida</h3>
+        <p>
+          Es la redistribución de las cargas eléctricas de un cuerpo
+          debido a la presencia de un campo eléctrico externo.
+        </p>
+      </div>
+
+      <div class="definicion">
+        <h3>Dipolo eléctrico</h3>
+        <p>
+          Es un sistema formado por dos cargas eléctricas de igual
+          magnitud y signo opuesto separadas por una distancia.
+        </p>
+      </div>
+
+
+<div class="definicion">
+    <h3>Efecto Casimir</h3>
+    <p>Interacción atractiva entre superficies conductoras próximas, originada por las modificaciones de las fluctuaciones cuánticas del campo electromagnético.</p>
+</div>
+
+<div class="definicion">
+    <h3>Efecto Casimir-Polder</h3>
+    <p>Interacción entre un átomo y una superficie causada por las fluctuaciones electromagnéticas del vacío.</p>
+</div>
+
+<div class="definicion">
+    <h3>Polarizabilidad</h3>
+    <p>Propiedad que describe la capacidad de un átomo o molécula para modificar su distribución de cargas ante un campo eléctrico externo.</p>
+</div>
+
+<div class="definicion">
+    <h3>Retardación electromagnética</h3>
+    <p>Fenómeno asociado al tiempo finito de propagación de las interacciones electromagnéticas, que modifica el comportamiento de las fuerzas a grandes distancias.</p>
+</div>
+
+<div class="termino">
+    <h3>Integral de Lifshitz</h3>
+    <p>Formulación matemática que permite calcular las interacciones de Casimir y Casimir-Polder considerando las propiedades electromagnéticas de los materiales.</p>
+</div>
+
+<div class="termino">
+    <h3>Frecuencias de Matsubara</h3>
+    <p>Conjunto discreto de frecuencias empleado para describir las fluctuaciones electromagnéticas en sistemas a temperatura finita.</p>
+</div>
+
+<div class="termino">
+    <h3>Efecto Stark</h3>
+    <p>Desplazamiento de los niveles energéticos de un átomo debido a la interacción con un campo eléctrico externo.</p>
+</div>
+
+<div class="termino">
+    <h3>Efecto Zeeman</h3>
+    <p>Separación o desplazamiento de los niveles energéticos de un átomo debido a la interacción con un campo magnético externo.</p>
+</div>
+
+<div class="termino">
+    <h3>Estructura hiperfina</h3>
+    <p>Separación de los niveles de energía atómicos producida por la interacción entre los momentos magnéticos del núcleo y los electrones.</p>
+</div>
+
+<div class="termino">
+    <h3>Frecuencia de resonancia</h3>
+    <p>Frecuencia característica a la que un sistema presenta una respuesta intensa, como ocurre durante una transición entre niveles energéticos atómicos.</p>
+</div>
+
+<div class="termino">
+    <h3>Blindaje electromagnético</h3>
+    <p>Técnica que utiliza materiales o estructuras para reducir la influencia de campos electromagnéticos externos sobre un dispositivo.</p>
+</div>
+
+<div class="termino">
+    <h3>Estabilidad de frecuencia</h3>
+    <p>Capacidad de un oscilador o sistema electrónico para mantener una frecuencia constante durante un intervalo de tiempo.</p>
+</div>
+
+
+    </section>
+
+    <div class="separador"></div>
+
+    <!-- BIBLIOGRAFÍA -->
+
+    <section id="bibliografia" class="articulo">
+
+      <span class="numero-seccion">10 / FUENTES</span>
+      <h2>Bibliografía</h2>
+
+      <ol class="referencias">
+
+        <li id="ref1">
+          Esquivel Sirvent, R. (2011).
+          <i>La fuerza del vacío. El efecto Casimir.</i>
+          Mundo Nano. Revista Interdisciplinaria en Nanociencias
+          y Nanotecnología, 4(1).
+          <a href="https://www.scielo.org.mx/scielo.php?pid=S2448-56912011000100023&script=sci_arttext"
+             target="_blank">
+            Consultar publicación.
+          </a>
+        </li>
+
+        <li id="ref2">
+          Casimir, H. B. G. (1948).
+          <i>On the attraction between two perfectly conducting plates.</i>
+          Proceedings of the Koninklijke Nederlandse Akademie
+          van Wetenschappen, 51, 793-795.
+          <a href="https://web.mit.edu/kardar/www/research/seminars/Casimir/Casimir1948.pdf"
+             target="_blank">
+            Consultar publicación.
+          </a>
+        </li>
+
+        <li id="ref3">
+          Lamoreaux, S. K. (1997).
+          <i>Demonstration of the Casimir Force in the 0.6 to 6 μm Range.</i>
+          Physical Review Letters, 78, 5-8.
+          <a href="https://doi.org/10.1103/PhysRevLett.78.5"
+             target="_blank">
+            https://doi.org/10.1103/PhysRevLett.78.5
+          </a>
+        </li>
+
+        <li id="ref4">
+          Mohideen, U., & Roy, A. (1998).
+          <i>Precision Measurement of the Casimir Force from
+          0.1 to 0.9 μm.</i>
+          Physical Review Letters, 81, 4549-4552.
+          <a href="https://doi.org/10.1103/PhysRevLett.81.4549"
+             target="_blank">
+            https://doi.org/10.1103/PhysRevLett.81.4549
+          </a>
+        </li>
+
+        <li id="ref5">
+          Casimir, H. B. G., & Polder, D. (1948).
+          <i>The Influence of Retardation on the London-van der Waals Forces.</i>
+          Physical Review, 73, 360-372.
+          <a href="https://doi.org/10.1103/PhysRev.73.360"
+             target="_blank">
+            https://doi.org/10.1103/PhysRev.73.360
+          </a>
+        </li>
+
+        <li id="ref6">
+          Massachusetts Institute of Technology (MIT).
+          <i>Casimir Effect Seminar: Casimir-Polder regimes.</i>
+          Material gráfico de investigación y seminario.
+          <a href="https://web.mit.edu/kardar/www/research/seminars/Casimir2010/"
+             target="_blank">
+            Consultar material.
+          </a>
+
+<li id="ref7">
+  DeKieviet, M., Jentschura, U. D., & Łach, G. (2011).
+  <i>Modern Experiments on Atom-Surface Casimir Physics.</i>
+  Lecture Notes in Physics.
+  <a href="https://atomoptics-nas.uoregon.edu/~tbrown/files/relevant_papers/Casimir_Physics/chapter_12.pdf"
+     target="_blank">
+    Consultar documento.
+  </a>
+</li>
+
+<li id="ref8">
+  Bimonte, G. et al. (2022).
+  <i>Something Can Come of Nothing: Surface Approaches to
+  Quantum Fluctuations and the Casimir Force.</i>
+  Annual Review of Nuclear and Particle Science.
+  <a href="https://doi.org/10.1146/annurev-nucl-111119-012402"
+     target="_blank">
+    Consultar DOI.
+  </a>
+</li>
+
+<li id="ref9">
+  Casimir, H. B. G., & Polder, D. (1948).
+  <i>The Influence of Retardation on the London-van der Waals Forces.</i>
+  Physical Review, 73, 360–372.
+  <a href="https://doi.org/10.1103/PhysRev.73.360"
+     target="_blank">
+    Consultar DOI.
+  </a>
+
+<li id="ref10">
+  Amini, J. M., & Gould, H. (2003).
+  <i>High Precision Measurement of the Static Dipole
+  Polarizability of Cesium.</i>
+  Physical Review Letters, 91, 153001.
+  <a href="https://doi.org/10.1103/PhysRevLett.91.153001"
+     target="_blank">
+    Consultar DOI.
+  </a>
+</li>
+
+</li>
+
+        </li>
+
+      </ol>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-contenido">
+      <h3>EL EFECTO CASIMIR</h3>
+      <p>
+        Artículo académico elaborado por
+        <strong>Kevin Fernando Hurtado Cansario</strong>
+      </p>
+      <p>Código: 20251005058</p>
+      <span>© 2026 · Todos los derechos reservados</span>
+    </div>
+  </footer>
+
+</body>
+</html>
